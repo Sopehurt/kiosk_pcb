@@ -1,0 +1,5834 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d7d67284-2c72-41d1-9351-94257f96109d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus_entry
+		(at 102.235 130.175)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f196e5-aa44-47ab-a718-febf08559eb7")
+	)
+	(bus_entry
+		(at 258.445 72.39)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d85ca9b-da3a-46d2-8edc-467d54bbfb5c")
+	)
+	(bus_entry
+		(at 103.505 114.935)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7ad1fb-2203-4f94-897a-46c71f9b5372")
+	)
+	(bus_entry
+		(at 189.865 72.39)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357d6bf1-2914-4cfa-ba8b-1342524e6b44")
+	)
+	(bus_entry
+		(at 102.235 151.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bff63db-ba3a-4c3b-8760-667604447f53")
+	)
+	(bus_entry
+		(at 189.865 51.435)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430c6b64-cfe9-4fc0-b165-70cb3fc92fcb")
+	)
+	(bus_entry
+		(at 102.235 46.355)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e658c8-3fe6-491b-8b89-bef6e86b7b64")
+	)
+	(bus_entry
+		(at 258.445 30.48)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5f2c41-b32a-4ad7-8808-6d743243e6c4")
+	)
+	(bus_entry
+		(at 103.505 135.89)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58994d1e-a18a-4d17-a7d6-52a003fe1c5e")
+	)
+	(bus_entry
+		(at 102.235 67.31)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3ee28d-46fb-4c95-85aa-a17865933074")
+	)
+	(bus_entry
+		(at 103.505 177.8)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ccd91df-5fd8-46ec-b7b2-225ac019bbdc")
+	)
+	(bus_entry
+		(at 102.235 172.085)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cf03c4-819c-4679-b7b8-f4577ea748db")
+	)
+	(bus_entry
+		(at 189.865 93.345)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e439574-2c9c-4b75-ae38-c3ac58a8e720")
+	)
+	(bus_entry
+		(at 258.445 51.435)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58c73d9-ee75-4b6b-9ee9-685cf68fa8ca")
+	)
+	(bus_entry
+		(at 102.235 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95ac814-8a29-4448-a5a6-b458260b6a09")
+	)
+	(bus_entry
+		(at 258.445 93.345)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc1308f-c1f2-4b3b-aa5f-09a27b351120")
+	)
+	(bus_entry
+		(at 103.505 52.07)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe15056-05e7-4d11-bd63-edd92c0f787c")
+	)
+	(bus_entry
+		(at 189.865 30.48)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb44a4d8-6d39-4d80-a17a-d317ae414895")
+	)
+	(bus_entry
+		(at 102.235 109.22)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf01591b-ffe3-43ff-8b1e-f22f5c3df8a3")
+	)
+	(bus_entry
+		(at 103.505 93.98)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decb0934-1082-483c-b302-1359c0dbe065")
+	)
+	(bus_entry
+		(at 103.505 31.115)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57e21d1-8b76-4a41-a99a-0af1248545de")
+	)
+	(bus_entry
+		(at 103.505 73.025)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8095f7-07aa-4444-95f9-cd1061a1c694")
+	)
+	(bus_entry
+		(at 102.235 88.265)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80b737b-d5bd-4061-b3b7-d85e6808e5b2")
+	)
+	(bus_entry
+		(at 103.505 156.845)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa86ba0e-1728-4b57-84f9-a0a0bdbc1ef4")
+	)
+	(wire
+		(pts
+			(xy 86.995 117.475) (xy 100.965 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0242af2d-0886-4995-96d2-31b4194f850d")
+	)
+	(wire
+		(pts
+			(xy 46.355 95.885) (xy 45.72 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033790d2-3162-4a56-9b2d-3d445ed889fe")
+	)
+	(bus
+		(pts
+			(xy 102.235 67.31) (xy 102.235 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034de17d-6ad1-4c27-a7e8-365f5911dd8c")
+	)
+	(bus
+		(pts
+			(xy 102.235 25.4) (xy 102.235 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a74a737-3d69-49a5-95d6-bad6a5641bc3")
+	)
+	(bus
+		(pts
+			(xy 102.235 46.355) (xy 102.235 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d88e0f1-7711-45b9-b761-64e3adec3434")
+	)
+	(bus
+		(pts
+			(xy 102.235 109.22) (xy 102.235 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1198f6d4-edaa-4194-8f1c-5ba9d65728ec")
+	)
+	(wire
+		(pts
+			(xy 86.995 96.52) (xy 100.965 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1841db34-e1c9-494b-8770-2ef6baa9ce86")
+	)
+	(bus
+		(pts
+			(xy 102.235 151.13) (xy 102.235 172.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1914ec5d-ee60-4a07-97ae-166669c2b2d7")
+	)
+	(wire
+		(pts
+			(xy 220.345 72.39) (xy 224.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1960a498-0924-4406-9de3-d6dbbd9d16f0")
+	)
+	(wire
+		(pts
+			(xy 46.355 33.02) (xy 45.72 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d225a0e-3125-4b6a-bf11-caba36a6ae43")
+	)
+	(wire
+		(pts
+			(xy 45.72 93.345) (xy 56.515 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b05e81-61c0-4e8a-baa0-e808b0eaa03c")
+	)
+	(wire
+		(pts
+			(xy 250.19 74.93) (xy 255.905 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2461c35d-df37-460c-b276-858d3756bf3c")
+	)
+	(wire
+		(pts
+			(xy 250.19 53.975) (xy 255.905 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24aec741-41eb-4230-934b-9d4d2000f2aa")
+	)
+	(wire
+		(pts
+			(xy 46.355 174.625) (xy 45.72 174.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fdf2d3-91a5-421a-860b-1dd0e6d925b4")
+	)
+	(wire
+		(pts
+			(xy 46.355 90.805) (xy 45.72 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292cf818-adf1-4a52-b36a-6a8ca735c80f")
+	)
+	(wire
+		(pts
+			(xy 220.345 33.02) (xy 224.79 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8e49d3-3d94-454a-ba9b-02fafa75afd4")
+	)
+	(wire
+		(pts
+			(xy 46.355 153.67) (xy 45.72 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b62f3cc-5647-44d8-bbf6-61878ea43ab5")
+	)
+	(wire
+		(pts
+			(xy 181.61 33.02) (xy 187.325 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5ce4ea-f0df-4992-859d-72804fefdb7d")
+	)
+	(bus
+		(pts
+			(xy 193.04 30.48) (xy 189.865 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f587b29-b4d9-4611-9060-6af1bc0216c8")
+	)
+	(wire
+		(pts
+			(xy 151.765 74.93) (xy 156.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff8b65e-c9e7-4a3f-a675-68e2779ae6f3")
+	)
+	(wire
+		(pts
+			(xy 86.995 174.625) (xy 99.695 174.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308ff2d1-ee08-4ca2-8bfc-cf2da28e6750")
+	)
+	(wire
+		(pts
+			(xy 151.765 95.885) (xy 156.21 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ba675c-f283-47f5-aa0f-12d53d4de052")
+	)
+	(wire
+		(pts
+			(xy 45.72 98.425) (xy 56.515 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3205888b-5ec6-416e-b50e-3a09fa15cb05")
+	)
+	(wire
+		(pts
+			(xy 151.765 33.02) (xy 156.21 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399b2cc3-51f8-46c4-9f7a-e6497ce6ac8a")
+	)
+	(bus
+		(pts
+			(xy 258.445 51.435) (xy 258.445 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b28246b-c08e-4621-a6ce-e6504cc982ab")
+	)
+	(wire
+		(pts
+			(xy 45.72 35.56) (xy 56.515 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be574b9-9d27-4377-9d51-a6ad4eecad7a")
+	)
+	(wire
+		(pts
+			(xy 86.995 54.61) (xy 100.965 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1bb952-3906-498b-9abe-0366a2d0ba0c")
+	)
+	(wire
+		(pts
+			(xy 181.61 53.975) (xy 187.325 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e00e8bf-678a-434e-a7fd-55e55d91c132")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 56.515 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43169f89-85a5-49a6-908a-a4d300dd1492")
+	)
+	(wire
+		(pts
+			(xy 45.72 77.47) (xy 56.515 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b61e76d-add4-4827-9973-b9e3aa8a2233")
+	)
+	(wire
+		(pts
+			(xy 45.72 140.335) (xy 56.515 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2efcfa-26e0-49cd-8b9f-755a22cbf378")
+	)
+	(wire
+		(pts
+			(xy 151.765 72.39) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe02588-fbce-4ea5-ab34-fee98a4f95a5")
+	)
+	(wire
+		(pts
+			(xy 46.355 179.705) (xy 45.72 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c05cac-5851-4959-bff2-dece5aaa443a")
+	)
+	(wire
+		(pts
+			(xy 86.995 132.715) (xy 99.695 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58324926-84d5-4c6a-9d7f-d3df4fc5ad45")
+	)
+	(wire
+		(pts
+			(xy 86.995 138.43) (xy 100.965 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58bcb8b2-3c6f-4d2d-b3a6-e3cf0349d13d")
+	)
+	(bus
+		(pts
+			(xy 106.045 25.4) (xy 102.235 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61beb8fb-4570-4608-9c31-cf2fb63558b6")
+	)
+	(bus
+		(pts
+			(xy 102.235 130.175) (xy 102.235 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6348dc9f-a072-44e3-8262-117e3da7a59e")
+	)
+	(wire
+		(pts
+			(xy 45.72 56.515) (xy 56.515 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66838c81-8cce-4cbf-b87f-415c573d67e9")
+	)
+	(wire
+		(pts
+			(xy 220.345 93.345) (xy 224.79 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f2f469-4774-448a-bdcb-2de49c579e29")
+	)
+	(wire
+		(pts
+			(xy 46.355 69.85) (xy 45.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4eec42-dfe4-49f4-aa0c-f56e47774dfd")
+	)
+	(bus
+		(pts
+			(xy 189.865 51.435) (xy 189.865 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b61eb19-38bd-43b9-9cad-cacb037465da")
+	)
+	(wire
+		(pts
+			(xy 86.995 33.655) (xy 100.965 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c390482-5764-4aef-bfa1-5e76d8d36044")
+	)
+	(bus
+		(pts
+			(xy 102.235 88.265) (xy 102.235 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb69bad-882c-42d9-b4ef-816a59cfe328")
+	)
+	(bus
+		(pts
+			(xy 189.865 72.39) (xy 189.865 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ffb4e4-ef01-4407-abe6-9d978448918d")
+	)
+	(wire
+		(pts
+			(xy 86.995 111.76) (xy 99.695 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772aa0b6-4638-4fc1-a9cd-aae9c34db479")
+	)
+	(bus
+		(pts
+			(xy 103.505 27.94) (xy 103.505 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad6bf27-456c-4010-9e67-32df79401418")
+	)
+	(wire
+		(pts
+			(xy 220.345 74.93) (xy 224.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847c97ac-4cfd-466d-a6c6-dbc65797fc1e")
+	)
+	(wire
+		(pts
+			(xy 86.995 159.385) (xy 100.965 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd28e3e-1d33-47ef-b90f-b4cbbb0ebc78")
+	)
+	(wire
+		(pts
+			(xy 45.72 30.48) (xy 56.515 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd03069-0082-41d1-984f-f557f434fe09")
+	)
+	(wire
+		(pts
+			(xy 45.72 161.29) (xy 56.515 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9207f4c5-7c76-40f3-b220-ec04f6e56406")
+	)
+	(wire
+		(pts
+			(xy 86.995 90.805) (xy 99.695 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97319bfe-047b-4dbe-bfd6-5e47c29028c3")
+	)
+	(bus
+		(pts
+			(xy 103.505 135.89) (xy 103.505 156.845)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fc8f57-c477-450d-8fc1-7f90af363276")
+	)
+	(wire
+		(pts
+			(xy 181.61 95.885) (xy 187.325 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982bc5c1-e05a-48cd-93f4-4641b0ec4cdb")
+	)
+	(wire
+		(pts
+			(xy 86.995 27.94) (xy 99.695 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b63757-20db-4922-b75b-924ceb4e16d6")
+	)
+	(wire
+		(pts
+			(xy 45.72 119.38) (xy 56.515 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b79884c-b572-4c37-a42f-428224eda957")
+	)
+	(wire
+		(pts
+			(xy 250.19 95.885) (xy 255.905 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba33247-1e79-438e-803c-c9d08052100c")
+	)
+	(bus
+		(pts
+			(xy 106.045 27.94) (xy 103.505 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdbd9ea-66d8-418c-8679-523a4d23534b")
+	)
+	(wire
+		(pts
+			(xy 46.355 137.795) (xy 45.72 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14dd041-a865-4159-ae9c-c3e85169197d")
+	)
+	(wire
+		(pts
+			(xy 45.72 135.255) (xy 56.515 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c9b8ee-0a2e-43d5-babf-3aec37cc8910")
+	)
+	(wire
+		(pts
+			(xy 46.355 111.76) (xy 45.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa803c64-4e2a-4a11-8454-7afc8ce05c55")
+	)
+	(wire
+		(pts
+			(xy 220.345 30.48) (xy 224.79 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc0cf6d-4092-4bb4-b3cb-fa34131a8779")
+	)
+	(wire
+		(pts
+			(xy 46.355 53.975) (xy 45.72 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aece84e8-50d4-49cb-bc97-57c7fc2ea549")
+	)
+	(wire
+		(pts
+			(xy 220.345 51.435) (xy 224.79 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6f13dd-5589-4fb2-9835-111d923430ae")
+	)
+	(wire
+		(pts
+			(xy 181.61 74.93) (xy 187.325 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b866b732-2a16-45c0-95fd-3bf1c670e81d")
+	)
+	(wire
+		(pts
+			(xy 45.72 177.165) (xy 56.515 177.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2b737d-aae8-4cf4-87c5-d39f6318db94")
+	)
+	(wire
+		(pts
+			(xy 151.765 30.48) (xy 156.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb45bc9b-3b2e-4857-8d4c-f04d36441b94")
+	)
+	(wire
+		(pts
+			(xy 46.355 48.895) (xy 45.72 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15d6375-a9e7-4775-8a60-e143070cbb10")
+	)
+	(wire
+		(pts
+			(xy 46.355 74.93) (xy 45.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d181c6-ded0-46e7-899a-2fa72b58db91")
+	)
+	(wire
+		(pts
+			(xy 151.765 51.435) (xy 156.21 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2da68e7-a40e-413a-9e56-db7361888960")
+	)
+	(bus
+		(pts
+			(xy 189.865 30.48) (xy 189.865 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2df93d5-0d8a-422a-bcfb-e0281ba66ff1")
+	)
+	(wire
+		(pts
+			(xy 151.765 93.345) (xy 156.21 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58fe11b-c097-4bd5-a7b9-ea09f9668a1e")
+	)
+	(bus
+		(pts
+			(xy 103.505 31.115) (xy 103.505 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65c8900-cc89-4cb9-8202-be5621b82769")
+	)
+	(wire
+		(pts
+			(xy 46.355 27.94) (xy 45.72 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c700f385-7b1c-48cf-bf5c-86715af4c06d")
+	)
+	(bus
+		(pts
+			(xy 258.445 30.48) (xy 258.445 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf2e393-eb03-48ff-857c-5acf59f13ed8")
+	)
+	(wire
+		(pts
+			(xy 86.995 48.895) (xy 99.695 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5091473-2b7f-4350-80b5-a2f7a343a6f0")
+	)
+	(wire
+		(pts
+			(xy 46.355 158.75) (xy 45.72 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d745a393-82fa-43ff-9f9d-176f44c7a706")
+	)
+	(wire
+		(pts
+			(xy 151.765 53.975) (xy 156.21 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d765b847-f6fa-4a09-bf6b-d2461701cd46")
+	)
+	(bus
+		(pts
+			(xy 103.505 156.845) (xy 103.505 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85aead2-d7af-42db-8ad8-34c98d4401e6")
+	)
+	(bus
+		(pts
+			(xy 258.445 72.39) (xy 258.445 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da365ed9-df6c-4885-b666-915aea1b75ce")
+	)
+	(wire
+		(pts
+			(xy 220.345 53.975) (xy 224.79 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6a120c-49ec-47a2-9d74-1583f8886a4b")
+	)
+	(bus
+		(pts
+			(xy 103.505 52.07) (xy 103.505 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfac6c3a-c90e-44ec-b837-885a25190542")
+	)
+	(wire
+		(pts
+			(xy 46.355 132.715) (xy 45.72 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03c7101-d40c-42ff-8c57-1a3257175055")
+	)
+	(wire
+		(pts
+			(xy 45.72 51.435) (xy 56.515 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15686ad-3320-4548-82a2-8b090ffe920b")
+	)
+	(wire
+		(pts
+			(xy 45.72 114.3) (xy 56.515 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f876ea-cae1-4a6b-8170-f244692224fe")
+	)
+	(wire
+		(pts
+			(xy 86.995 153.67) (xy 99.695 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8a43125-9c65-4c5f-a30a-4535c85d4b69")
+	)
+	(wire
+		(pts
+			(xy 220.345 95.885) (xy 224.79 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb310dd3-9efe-4271-b8c2-05a068081d5b")
+	)
+	(bus
+		(pts
+			(xy 103.505 73.025) (xy 103.505 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee12dacf-b12e-45c2-ad93-64985ee4f2b1")
+	)
+	(wire
+		(pts
+			(xy 250.19 33.02) (xy 255.905 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea355d6-1e8c-4ee3-869f-2ca9f1ed6581")
+	)
+	(wire
+		(pts
+			(xy 86.995 75.565) (xy 100.965 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1baab5-6d6e-478a-b984-87a2628af6df")
+	)
+	(wire
+		(pts
+			(xy 45.72 182.245) (xy 56.515 182.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9a8bf6-2dc9-4439-b48f-1276b2b1838c")
+	)
+	(bus
+		(pts
+			(xy 103.505 114.935) (xy 103.505 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1efa057-e359-4561-a4ce-1778c87c7177")
+	)
+	(wire
+		(pts
+			(xy 86.995 69.85) (xy 99.695 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2890004-436f-42ae-bb05-26575b7ec0ff")
+	)
+	(bus
+		(pts
+			(xy 261.62 30.48) (xy 258.445 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ed5489-e678-41df-bd8a-8ae4fa3107e2")
+	)
+	(wire
+		(pts
+			(xy 86.995 180.34) (xy 100.965 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f626c595-4a31-480f-accf-c2352a1eb749")
+	)
+	(wire
+		(pts
+			(xy 45.72 156.21) (xy 56.515 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70a5142-a54e-4d89-93bd-0e99226060e0")
+	)
+	(bus
+		(pts
+			(xy 103.505 93.98) (xy 103.505 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bcc222-c951-4390-9eb9-95d8ae9d1bd7")
+	)
+	(wire
+		(pts
+			(xy 46.355 116.84) (xy 45.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffecaf53-c497-4533-9d28-5e4e09b2c821")
+	)
+	(label "BTN3"
+		(at 94.615 90.805 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1babb4c6-a769-4fa9-af22-d91d170bd103")
+	)
+	(label "LD4"
+		(at 255.27 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c36aed4-529c-434d-8b03-063cfa039f24")
+	)
+	(label "LED3"
+		(at 94.615 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2afaf32e-248f-49b0-9fd9-90604fc582b4")
+	)
+	(label "LED0"
+		(at 94.615 33.655 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "351f3a09-719c-4b5e-b1e0-92a9378f5069")
+	)
+	(label "LD2"
+		(at 186.69 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "381355d1-67f1-486f-8395-bfd5a12c2f7d")
+	)
+	(label "LED5"
+		(at 94.615 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "549b00fc-20df-4060-b701-7e108ce5a64d")
+	)
+	(label "LED1"
+		(at 94.615 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56c7afb8-c29f-45f4-982d-c51d07ae58bd")
+	)
+	(label "LED6"
+		(at 94.615 159.385 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d3900ac-83f3-46ad-adf1-664bcf6d3d1c")
+	)
+	(label "BTN4"
+		(at 94.615 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5eaa8fa3-7640-43a2-bd19-a8fc05beeeb3")
+	)
+	(label "LD3"
+		(at 186.69 95.885 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64fb9b64-6b10-4657-bc6e-572240fd301e")
+	)
+	(label "LD0"
+		(at 186.69 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "761e6e7b-b789-4fa9-899d-5c766ae5f6a7")
+	)
+	(label "LED2"
+		(at 94.615 75.565 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "774343bd-1aba-406b-99c3-7ec1eefb8997")
+	)
+	(label "BTN1"
+		(at 94.615 48.895 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8561e9b0-fd5b-4085-8e59-63a3df0d0004")
+	)
+	(label "BTN5"
+		(at 94.615 132.715 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5dc396b-270c-4f48-8f23-1c386578e0ea")
+	)
+	(label "LD5"
+		(at 255.27 53.975 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8ac2b6c-7199-40ce-9816-0f2d38d315bf")
+	)
+	(label "BTN6"
+		(at 94.615 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cdc908e2-70ba-4932-8ae9-5705d9c07452")
+	)
+	(label "BTN7"
+		(at 94.615 174.625 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d386df51-6ec3-42a5-9833-b9c092a52684")
+	)
+	(label "LD6"
+		(at 255.27 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6b52272-6b06-4830-9c34-94f4186403de")
+	)
+	(label "LED7"
+		(at 94.615 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e147635b-2c90-4e60-9842-c2299bcf5de6")
+	)
+	(label "LD7"
+		(at 255.27 95.885 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e353a132-e3df-495a-a1a9-386d3ccaf347")
+	)
+	(label "LED4"
+		(at 94.615 117.475 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb3fa6a4-6333-46b4-ab91-07518d6ef61e")
+	)
+	(label "BTN2"
+		(at 94.615 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3e42cf2-cdd3-474f-a88b-a0e8fc5f04ff")
+	)
+	(label "BTN0"
+		(at 94.615 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f93573aa-9f94-408f-9978-48e1d4f1dd24")
+	)
+	(label "LD1"
+		(at 186.69 53.975 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f973d72e-2f6f-49e8-a20d-9bc56e1fc37a")
+	)
+	(hierarchical_label "LD[0..7]"
+		(shape output)
+		(at 193.04 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1230e709-21c7-4282-af13-bcc5877a3c40")
+	)
+	(hierarchical_label "LD[0..7]"
+		(shape output)
+		(at 261.62 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23814bd8-84ba-4abe-afd6-f2798fb5f8bd")
+	)
+	(hierarchical_label "LED[0..7]"
+		(shape output)
+		(at 106.045 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94c52d3b-1280-40c9-b215-9a634c6c41e7")
+	)
+	(hierarchical_label "BTN[0..7]"
+		(shape input)
+		(at 106.045 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e58b85f-9b07-419e-b072-4a5d66bd054d")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "062a2fc5-bfcb-452f-94dc-accc4cd96517")
+		(property "Reference" "J6"
+			(at 38.1 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Button_4"
+			(at 38.1 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fc01f430-a546-4d9c-8c4f-5e7c3616436a")
+		)
+		(pin "4"
+			(uuid "5b978983-2207-4317-81fb-d4330db34bb7")
+		)
+		(pin "2"
+			(uuid "0c41041b-6a7a-4fd7-acdc-88444512fbec")
+		)
+		(pin "1"
+			(uuid "d23a02da-3a26-4c32-a3d0-3919bb118194")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 53.975 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1159e4dd-3906-4508-9402-5d0397bceaa0")
+		(property "Reference" "#PWR04"
+			(at 42.545 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 53.9749 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faffe998-c354-47f9-b43b-d78fc33d6c08")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 137.795 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "148de87a-ce2d-401f-9204-063b4c53f434")
+		(property "Reference" "#PWR036"
+			(at 42.545 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 137.7949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a87b8ac-34e0-44ac-915c-591194efe4d0")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 48.895 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2026a768-f7ae-4369-a1a6-a4915d3bb93b")
+		(property "Reference" "#PWR03"
+			(at 42.545 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 48.8949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be071182-a30d-4ed2-9b39-8827c6101d0b")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "378cef46-ce6e-49a3-8926-3c0e168ccffa")
+		(property "Reference" "#PWR01"
+			(at 42.545 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cdd1c82-20eb-44c9-8f81-03d2c34fd170")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 146.685 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "378f6658-7c7d-407d-9216-34468e7d7b93")
+		(property "Reference" "J10"
+			(at 144.145 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load_0"
+			(at 144.145 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 146.685 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 146.685 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 146.685 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 146.685 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 146.685 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf5efc23-664e-4cd4-9f07-d46810c01704")
+		)
+		(pin "1"
+			(uuid "cc1d26f4-97a7-4096-b08d-df2f85bc973e")
+		)
+		(instances
+			(project ""
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 146.685 93.345 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "420e4e64-4437-43e3-a3c9-b6bac018321a")
+		(property "Reference" "J13"
+			(at 144.145 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load_3"
+			(at 144.145 95.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 146.685 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 146.685 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 146.685 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 146.685 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 146.685 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28d73636-dcc4-4a2f-955e-52508a84ff30")
+		)
+		(pin "1"
+			(uuid "da7fe0fe-1bfd-4fd4-9d45-3577d4056c87")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 215.265 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ec4d3cd-2c44-45ef-bb70-e6a73a4712ab")
+		(property "Reference" "J14"
+			(at 212.725 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load_4"
+			(at 212.725 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 215.265 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 215.265 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 215.265 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 215.265 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.265 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9ea3dfa-9acb-4888-884f-781ba66c64cf")
+		)
+		(pin "1"
+			(uuid "916e5d75-4f29-400e-a8cd-6e6a7c5e86cf")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 146.685 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5853c5f6-68ab-4710-bb27-ad544d80d6eb")
+		(property "Reference" "J12"
+			(at 144.145 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load_2"
+			(at 144.145 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 146.685 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 146.685 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 146.685 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 146.685 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 146.685 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73e91982-8125-4b74-9712-7d39b41e0f38")
+		)
+		(pin "1"
+			(uuid "4175184a-e535-4d7b-a1bf-a4c8cf4e66a3")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 146.685 51.435 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f2334ab-dfde-4e8c-bbbb-82b6525dbd68")
+		(property "Reference" "J11"
+			(at 144.145 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load_1"
+			(at 144.145 53.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 146.685 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 146.685 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 146.685 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 146.685 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 146.685 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5681f6b-dd9b-4c56-b2ec-2a067a8a6d76")
+		)
+		(pin "1"
+			(uuid "56e2e9bf-87b5-4aa3-a8bd-f5ebfee7d157")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 174.625 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6def869c-53d1-4a90-a0f8-09cfbe34024c")
+		(property "Reference" "#PWR044"
+			(at 42.545 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 174.6249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07051a01-0944-4df9-88f3-fe2a9d4000ec")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 90.805 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70530cc6-39e8-4f02-bceb-019f60aa75d2")
+		(property "Reference" "#PWR07"
+			(at 42.545 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 90.8049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d84232a-d152-4d67-a281-621518adc102")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ceea73f-0f3b-4dc9-8d99-33d1ea924435")
+		(property "Reference" "#PWR05"
+			(at 42.545 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "216991b6-2fa1-44e9-b6dc-c729e343337b")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 93.345 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8eee210b-317a-405a-89f4-584ea94b4376")
+		(property "Reference" "J5"
+			(at 38.1 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Button_3"
+			(at 38.1 95.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 40.64 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 40.64 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6e631384-f3d6-402e-b518-7641b27748ec")
+		)
+		(pin "4"
+			(uuid "be1e70c6-76d7-4408-84f9-c32df1d20e23")
+		)
+		(pin "2"
+			(uuid "80ea80e0-910a-4e2d-90dd-15ee37276c21")
+		)
+		(pin "1"
+			(uuid "a789de5e-0264-4846-bc23-66b8a6bee044")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fa82fc6-e730-4dbc-ae2c-23e8a50c3544")
+		(property "Reference" "#PWR06"
+			(at 42.545 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2d5d877-8dbc-49bf-bf5f-687d46abac01")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 179.705 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97454dbd-a797-47b2-89dc-7ccf4df5cc08")
+		(property "Reference" "#PWR049"
+			(at 42.545 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 179.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f991750e-09c2-4425-930a-ed06bb24d470")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a169f2b7-0022-4c04-826b-fa1cce6c8bdd")
+		(property "Reference" "#PWR02"
+			(at 42.545 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d748b0d-7da1-419f-9bc6-e97a401ee9ce")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 215.265 93.345 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a49c7e01-f4ff-4cdd-9c7c-356b1893efef")
+		(property "Reference" "J17"
+			(at 212.725 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load_07"
+			(at 212.725 95.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 215.265 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 215.265 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 215.265 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 215.265 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.265 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6797b230-26d9-4908-b574-873c2362c31b")
+		)
+		(pin "1"
+			(uuid "19664eba-baa2-4f99-a11a-b754e2c6494a")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 132.715 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a78531cc-8d69-4fa8-9c98-abb906b2d4a2")
+		(property "Reference" "#PWR035"
+			(at 42.545 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 132.7149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac78d884-28ae-4863-9f25-81344d0e3617")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdbc1562-68c6-4861-a7fd-f8951ee6de8a")
+		(property "Reference" "J8"
+			(at 38.1 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Button_6"
+			(at 38.1 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 40.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4027020e-8606-4b87-a0fa-87226caf4aed")
+		)
+		(pin "4"
+			(uuid "0762bc24-b8af-4c36-9708-f605e2cf75e7")
+		)
+		(pin "2"
+			(uuid "8eef13c7-d63b-4ecf-be69-a1ead12474e3")
+		)
+		(pin "1"
+			(uuid "34a7750a-07b9-4a7d-a103-815a5d7a5a93")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 177.165 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bef53d84-7efe-4c7e-afd7-7b1bbdebcd06")
+		(property "Reference" "J9"
+			(at 38.1 177.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Button_7"
+			(at 38.1 179.7049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 40.64 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 40.64 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e3efc257-cb75-4bbf-bee3-28df88f0d2ce")
+		)
+		(pin "4"
+			(uuid "f5e01411-87a0-4cf2-a02d-12b878365ad2")
+		)
+		(pin "2"
+			(uuid "61c288b2-4066-47fb-8360-323608f48ee6")
+		)
+		(pin "1"
+			(uuid "4f5e206c-a928-4f61-b5cd-2331283fdbfc")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca19d4f7-e72b-4da5-9c09-0462e1212722")
+		(property "Reference" "J4"
+			(at 38.1 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Button_2"
+			(at 38.1 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 40.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 40.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5b9c1a62-5af0-4074-a7fd-6de22ebc3882")
+		)
+		(pin "4"
+			(uuid "34e43d22-c721-41d6-8690-21d1bc766d0c")
+		)
+		(pin "2"
+			(uuid "6d481dbb-e437-42db-9bd1-d89be96f38af")
+		)
+		(pin "1"
+			(uuid "2e96db2c-3354-4cbf-a518-4e4d171f9701")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 135.255 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d02162ed-5084-4923-9092-3ff39f21b6d2")
+		(property "Reference" "J7"
+			(at 38.1 135.2549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Button_5"
+			(at 38.1 137.7949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c7c38b95-0b28-43a7-8600-0ef6a3e636b9")
+		)
+		(pin "4"
+			(uuid "e86f50d3-bba5-4aa8-a1a3-72153968129b")
+		)
+		(pin "2"
+			(uuid "4aea5f99-1505-413b-93d5-949a85c308c1")
+		)
+		(pin "1"
+			(uuid "3ffc1cac-e530-4e40-995b-c85cd4b62139")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2490fff-e1b8-417a-a977-f52159a08f4a")
+		(property "Reference" "J2"
+			(at 38.1 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Button_0"
+			(at 38.1 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0a9dc34e-3932-4e06-a67d-e55c81cd7403")
+		)
+		(pin "4"
+			(uuid "7e129f27-c908-43bd-887a-c38d58f144e5")
+		)
+		(pin "2"
+			(uuid "060e27ad-4287-4102-86ce-8feff6c32658")
+		)
+		(pin "1"
+			(uuid "2959bd4f-6f57-4ab8-9247-38f9c4d4cb93")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 51.435 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd4cdf83-fbac-4a49-905d-4f04624449a4")
+		(property "Reference" "J3"
+			(at 38.1 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Button_1"
+			(at 38.1 53.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 40.64 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 40.64 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "97b4370f-f2f0-45d8-85f2-20e665a35839")
+		)
+		(pin "4"
+			(uuid "18573a96-9db5-403d-9a39-48820b8ab7ca")
+		)
+		(pin "2"
+			(uuid "2cdd3fa0-ad88-4f07-a38e-d060e656a7bc")
+		)
+		(pin "1"
+			(uuid "cec56ad6-ee6e-4e97-90d0-6c3689ef6ddb")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df4aa7ee-b89b-4368-b32c-f5b72893f1ad")
+		(property "Reference" "#PWR026"
+			(at 42.545 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bfaf78e-6df2-4b96-a8d8-3effb3a3de35")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8569fe9-2065-45b2-9e14-9812d8b7a0a2")
+		(property "Reference" "#PWR09"
+			(at 42.545 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "851bce47-6cc7-4315-8cd3-de55783c6e5d")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eff86d82-f0da-47f5-bd26-70583e43e017")
+		(property "Reference" "#PWR038"
+			(at 42.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f67f2a2-db2b-4e37-92db-5478e22a3447")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 153.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0484ca7-da3f-427f-a777-df421e113bfe")
+		(property "Reference" "#PWR037"
+			(at 42.545 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87c385ac-e4e1-4402-9453-58cfc00ed253")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 215.265 51.435 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f87aa904-89e1-4f7f-b277-84591c02de68")
+		(property "Reference" "J15"
+			(at 212.725 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load_5"
+			(at 212.725 53.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 215.265 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 215.265 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 215.265 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 215.265 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.265 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8986f77-bc16-4152-8890-c167c87a4e2e")
+		)
+		(pin "1"
+			(uuid "edda2486-1af9-4c61-95f6-dd2a24b21473")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.355 95.885 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb3feda5-3196-40e0-9aef-4da1768bd0fd")
+		(property "Reference" "#PWR08"
+			(at 42.545 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 49.53 95.8849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.355 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd60d85b-169d-41d9-a778-61c7de5484e7")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 215.265 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb4bcbed-4fa8-4f77-8c67-d708749ceb94")
+		(property "Reference" "J16"
+			(at 212.725 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load_6"
+			(at 212.725 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 215.265 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 215.265 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 215.265 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 215.265 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.265 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5e53c44-54ed-49c2-88e6-10386957ade8")
+		)
+		(pin "1"
+			(uuid "8c447a99-9fca-484e-a98a-6c8e9903aead")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 128.905)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b2a77e9-14c2-4b88-bb12-8ec38d6907b4")
+		(property "Sheetname" "BTN5"
+			(at 56.515 128.1934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BTNkicad_sch.kicad_sch"
+			(at 56.515 144.7296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "5"
+			(at 56.515 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_BTN${No}" input
+			(at 56.515 140.335 180)
+			(uuid "c449d96b-1ade-4349-a7a7-ef45ea8276fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_LED${No}" input
+			(at 56.515 135.255 180)
+			(uuid "25312696-49b6-40f6-bc4b-ace858605b82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN${No}" input
+			(at 86.995 132.715 0)
+			(uuid "195766a7-92eb-4892-8539-b5727b1ba804")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED${No}" output
+			(at 86.995 138.43 0)
+			(uuid "64f166ea-9fb1-4fd5-a8fe-75d9f5fdd814")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 26.035)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c271627-317b-4a93-9f71-5e5c91d736bd")
+		(property "Sheetname" "Load4"
+			(at 224.79 25.3234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load.kicad_sch"
+			(at 224.79 38.0496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "4"
+			(at 224.79 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_Load${No}" input
+			(at 224.79 30.48 180)
+			(uuid "1bcdc1b6-bf2f-4cd2-80f2-c976964ca9d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_Load${No}" input
+			(at 224.79 33.02 180)
+			(uuid "38dbe5f3-50fc-45eb-8d01-efecaa63afc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Load${No}" input
+			(at 250.19 33.02 0)
+			(uuid "aec3c3ee-5bf9-4aea-a398-c286a7ac88e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 26.035)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14d5d93e-bce6-49dd-948b-b629e32abd4c")
+		(property "Sheetname" "Load0"
+			(at 156.21 25.3234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load.kicad_sch"
+			(at 156.21 38.0496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "0"
+			(at 156.21 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_Load${No}" input
+			(at 156.21 30.48 180)
+			(uuid "5a0efdc9-80fe-48c6-b809-a26420e25b49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_Load${No}" input
+			(at 156.21 33.02 180)
+			(uuid "15953108-12c3-40f6-827b-d2c065735cc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Load${No}" input
+			(at 181.61 33.02 0)
+			(uuid "95216cf7-f4cc-400d-9f26-032bea8f1d3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 107.95)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f662fc0-700e-4a53-8f25-29d5d6f99524")
+		(property "Sheetname" "BTN4"
+			(at 56.515 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BTNkicad_sch.kicad_sch"
+			(at 56.515 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "4"
+			(at 56.515 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_BTN${No}" input
+			(at 56.515 119.38 180)
+			(uuid "48d625f1-9067-47c6-9703-e43acabc0aae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_LED${No}" input
+			(at 56.515 114.3 180)
+			(uuid "30a503e9-3158-4eac-a8a9-30c0f4bf2e68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN${No}" input
+			(at 86.995 111.76 0)
+			(uuid "42536499-4df8-4461-9bdc-03109cfa9502")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED${No}" output
+			(at 86.995 117.475 0)
+			(uuid "099398c3-a421-480b-8e82-98de27fe9d75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 66.04)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2eb76603-2d98-476b-9de6-9ee30cbab6b4")
+		(property "Sheetname" "BTN2"
+			(at 56.515 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BTNkicad_sch.kicad_sch"
+			(at 56.515 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "2"
+			(at 56.515 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_BTN${No}" input
+			(at 56.515 77.47 180)
+			(uuid "61275b68-c756-42b4-8cc4-261bb396b077")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_LED${No}" input
+			(at 56.515 72.39 180)
+			(uuid "7ff34b7b-09a8-4fa3-9d91-67006cef5949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN${No}" input
+			(at 86.995 69.85 0)
+			(uuid "69dc8d3d-f26e-4ab9-a2d9-2d6bbb4ea0cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED${No}" output
+			(at 86.995 75.565 0)
+			(uuid "1addc0df-c769-4d2d-a51e-8ff390bde1bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 45.085)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b7d595c-aabc-4f1c-8bfc-e79b452a463e")
+		(property "Sheetname" "BTN1"
+			(at 56.515 44.3734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BTNkicad_sch.kicad_sch"
+			(at 56.515 60.9096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "1"
+			(at 56.515 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_BTN${No}" input
+			(at 56.515 56.515 180)
+			(uuid "592923e5-19c9-4249-8956-133c3d5feed7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_LED${No}" input
+			(at 56.515 51.435 180)
+			(uuid "94ab3d3e-e5ca-4d65-8511-8ee662f31e1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN${No}" input
+			(at 86.995 48.895 0)
+			(uuid "9c818af2-4841-4256-b04a-b14bb90538b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED${No}" output
+			(at 86.995 54.61 0)
+			(uuid "eed7bac7-7ca2-42ef-a9a7-16c280bb4f23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 86.995)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45534c8c-de3d-430b-987d-7f352e5cf44d")
+		(property "Sheetname" "BTN3"
+			(at 56.515 86.2834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BTNkicad_sch.kicad_sch"
+			(at 56.515 102.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "3"
+			(at 56.515 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_BTN${No}" input
+			(at 56.515 98.425 180)
+			(uuid "9a94c72d-8dc6-42c9-a3ad-69c94a395c40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_LED${No}" input
+			(at 56.515 93.345 180)
+			(uuid "0f8b8e86-7f16-4b7d-a3bd-c78498b586e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN${No}" input
+			(at 86.995 90.805 0)
+			(uuid "ed1fe6e0-2834-4371-9015-fc938dda3e59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED${No}" output
+			(at 86.995 96.52 0)
+			(uuid "f18babc4-4897-4b09-9aba-4afc3148d5bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 46.99)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "587bad33-1d24-4ccb-8351-ab633d5a1fc5")
+		(property "Sheetname" "Load5"
+			(at 224.79 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load.kicad_sch"
+			(at 224.79 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "5"
+			(at 224.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_Load${No}" input
+			(at 224.79 51.435 180)
+			(uuid "dc0507dd-ba8c-4352-8ee1-6c4146e4e6e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_Load${No}" input
+			(at 224.79 53.975 180)
+			(uuid "b597249c-19f7-431a-8aff-6950822b1bdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Load${No}" input
+			(at 250.19 53.975 0)
+			(uuid "f2c7fe3f-9717-41f8-9ffd-c917c904001a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 46.99)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5973e0c5-4c64-4f7f-805d-5b64c844a54c")
+		(property "Sheetname" "Load1"
+			(at 156.21 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load.kicad_sch"
+			(at 156.21 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "1"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_Load${No}" input
+			(at 156.21 51.435 180)
+			(uuid "4a578d31-19f7-4494-827a-c334561abc0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_Load${No}" input
+			(at 156.21 53.975 180)
+			(uuid "aa38ab63-beb5-4c18-8b35-7a3846415a19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Load${No}" input
+			(at 181.61 53.975 0)
+			(uuid "d813233d-4614-44d9-9b34-8d6728c27757")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 24.13)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e38aab3-b28b-4dc5-a79b-6c7b0514426e")
+		(property "Sheetname" "BTN0"
+			(at 56.515 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BTNkicad_sch.kicad_sch"
+			(at 56.515 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "0"
+			(at 56.515 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_BTN${No}" input
+			(at 56.515 35.56 180)
+			(uuid "ce8f77c5-cd38-43fe-bca9-23cf25b4ebea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_LED${No}" input
+			(at 56.515 30.48 180)
+			(uuid "5809d2d0-c46d-406f-89bf-d4587a0f37d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN${No}" input
+			(at 86.995 27.94 0)
+			(uuid "3bf91f96-350f-4196-afcc-d529fcfab682")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED${No}" output
+			(at 86.995 33.655 0)
+			(uuid "0aa3253c-0adc-400b-be7e-5fef6770356e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 88.9)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ab95cae-ce4f-4ab0-81c7-6a4d892e8f1f")
+		(property "Sheetname" "Load7"
+			(at 224.79 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load.kicad_sch"
+			(at 224.79 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "7"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_Load${No}" input
+			(at 224.79 93.345 180)
+			(uuid "8bc0a7df-653d-4111-8653-d82f4bfd841f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_Load${No}" input
+			(at 224.79 95.885 180)
+			(uuid "fc8cb6fa-42c8-4a02-9566-216d28af2ae3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Load${No}" input
+			(at 250.19 95.885 0)
+			(uuid "f31c4023-21aa-46eb-9bc6-551ecdbb3507")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 88.9)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c642db8-62d1-4249-801c-ce7625f01657")
+		(property "Sheetname" "Load3"
+			(at 156.21 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load.kicad_sch"
+			(at 156.21 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "3"
+			(at 156.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_Load${No}" input
+			(at 156.21 93.345 180)
+			(uuid "dd864bb8-9d13-4ede-a470-193ad0368c8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_Load${No}" input
+			(at 156.21 95.885 180)
+			(uuid "84bc6143-f525-4839-83c8-f68209666eb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Load${No}" input
+			(at 181.61 95.885 0)
+			(uuid "2b379626-4753-4712-9265-b3380ce1ce56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 170.815)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cd2566d-f984-4948-abf0-8e9cce55fb0f")
+		(property "Sheetname" "BTN7"
+			(at 56.515 170.1034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BTNkicad_sch.kicad_sch"
+			(at 56.515 186.6396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "7"
+			(at 56.515 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_BTN${No}" input
+			(at 56.515 182.245 180)
+			(uuid "9d055f6b-52e3-4e25-b013-795fbbe70736")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_LED${No}" input
+			(at 56.515 177.165 180)
+			(uuid "8c1e990f-76f7-4297-91d6-f4745e7283f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN${No}" input
+			(at 86.995 174.625 0)
+			(uuid "249b5856-77d6-45a0-af04-bd589e5e8726")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED${No}" output
+			(at 86.995 180.34 0)
+			(uuid "3bde17e3-cd72-4187-bec0-726c233b43ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 67.945)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d4d6f4ec-3715-476d-bb49-3a41bea4ec75")
+		(property "Sheetname" "Load6"
+			(at 224.79 67.2334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load.kicad_sch"
+			(at 224.79 79.9596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "6"
+			(at 224.79 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_Load${No}" input
+			(at 224.79 72.39 180)
+			(uuid "59b39099-7aae-414d-a809-2da0b98503b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_Load${No}" input
+			(at 224.79 74.93 180)
+			(uuid "1d36ea29-0c17-42e5-9342-88a6a9b05ddc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Load${No}" input
+			(at 250.19 74.93 0)
+			(uuid "71134f04-cb77-43be-b872-ac80f9055bc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 67.945)
+		(size 25.4 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f491e371-fbc9-4f92-88ec-6d4cbb1d3331")
+		(property "Sheetname" "Load2"
+			(at 156.21 67.2334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Load.kicad_sch"
+			(at 156.21 79.9596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "2"
+			(at 156.21 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_Load${No}" input
+			(at 156.21 72.39 180)
+			(uuid "9044a07e-2ff7-4aab-a764-faf52ace6fb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_Load${No}" input
+			(at 156.21 74.93 180)
+			(uuid "81b5f7cf-612a-46ba-910e-1625e7dcfeab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Load${No}" input
+			(at 181.61 74.93 0)
+			(uuid "9b512584-9a2d-4784-baec-55333e4b0ebb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 149.86)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fdc5cd37-88e3-49d0-a95c-c565d851aa04")
+		(property "Sheetname" "BTN6"
+			(at 56.515 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BTNkicad_sch.kicad_sch"
+			(at 56.515 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "No" "6"
+			(at 56.515 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12V_BTN${No}" input
+			(at 56.515 161.29 180)
+			(uuid "272c03c2-b70f-47ae-baed-cc4897228e7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_LED${No}" input
+			(at 56.515 156.21 180)
+			(uuid "7c0fdc11-ca2f-4570-b86a-b99840d39dd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN${No}" input
+			(at 86.995 153.67 0)
+			(uuid "1907b056-b69e-4caf-9c2c-48fb21b000b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED${No}" output
+			(at 86.995 159.385 0)
+			(uuid "71d45428-ba0d-4b67-b3eb-dbc7f373ea5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(page "12")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,828 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f8bd6c94-f0e6-407f-98cc-e119e52a2f35")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus
+		(pts
+			(xy 168.91 76.835) (xy 178.435 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd52fc4-c72a-4617-bb81-8ea3492a50d2")
+	)
+	(bus
+		(pts
+			(xy 168.91 74.93) (xy 178.435 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b61bdda-f48d-4b73-90e4-bf509e4257ad")
+	)
+	(bus
+		(pts
+			(xy 168.91 104.14) (xy 178.435 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d533c4d-fee6-4875-9e72-8360ae1987e3")
+	)
+	(bus
+		(pts
+			(xy 168.91 106.68) (xy 178.435 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e844173-0ab9-41f1-a3cf-734b450ce78d")
+	)
+	(wire
+		(pts
+			(xy 168.91 97.79) (xy 178.435 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dd6e2f-3a4c-4da6-ba53-92a03caee787")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.885) (xy 178.435 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a96ea4-bd0f-4bdc-a4af-6b417b6f4a71")
+	)
+	(bus
+		(pts
+			(xy 168.91 101.6) (xy 178.435 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a214b62d-c8e2-44ca-8267-55c01ac1fc6e")
+	)
+	(bus
+		(pts
+			(xy 168.91 93.98) (xy 178.435 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b532220c-fe6e-42d6-b784-e4095b3e4813")
+	)
+	(bus
+		(pts
+			(xy 168.91 78.74) (xy 178.435 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98e4d0d-337d-4f33-babc-d5896b3da521")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 91.44 70.485 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "138bb118-ee0d-4ab1-9e10-742ea1b4327d")
+		(property "Reference" "H1"
+			(at 94.615 69.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 94.615 71.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 91.44 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 91.44 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 91.44 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 91.44 85.725 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "6e131b3e-013d-430a-805c-cb8a8de431fe")
+		(property "Reference" "H4"
+			(at 94.615 84.4549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 94.615 86.9949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 91.44 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 91.44 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 91.44 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 91.44 75.565 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "71961e36-18b0-4e8d-b3b8-fb20201cd27b")
+		(property "Reference" "H2"
+			(at 94.615 74.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 94.615 76.8349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 91.44 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 91.44 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 91.44 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 91.44 80.645 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "7b550cd4-341e-49aa-9f6f-bd94a08a7f74")
+		(property "Reference" "H3"
+			(at 94.615 79.3749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 94.615 81.9149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 91.44 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 91.44 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 91.44 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 178.435 70.485)
+		(size 26.035 13.335)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88")
+		(property "Sheetname" "Connector"
+			(at 178.435 69.7734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector.kicad_sch"
+			(at 178.435 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BTN[0..7]" input
+			(at 178.435 74.93 180)
+			(uuid "ce3b6094-7223-476f-8afa-a32f3e7afd51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED[0..7]" output
+			(at 178.435 76.835 180)
+			(uuid "f39be41a-a236-4557-a64c-5bf87c17355b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LD[0..7]" output
+			(at 178.435 78.74 180)
+			(uuid "d9711d5a-d520-4c80-ba2b-e8395fd0fc30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 178.435 89.535)
+		(size 26.035 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f2adda4-bc0e-4374-9492-404bc1f22ca7")
+		(property "Sheetname" "Peripheral"
+			(at 178.435 88.8234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripheral.kicad_sch"
+			(at 178.435 111.7096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "COIN" input
+			(at 178.435 97.79 180)
+			(uuid "b26f53dc-72bd-45b2-b913-f87fef771fc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pulse" input
+			(at 178.435 95.885 180)
+			(uuid "09b499b5-510f-4c4d-a1aa-00baab9e850e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QR{TX,RX}" input
+			(at 178.435 101.6 180)
+			(uuid "551f33d2-6c61-4914-b9ca-d047449a9ddd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RASPI{TX,RX}" input
+			(at 178.435 104.14 180)
+			(uuid "a7b9e59e-85d4-4ea7-9fc7-e646e91cf867")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Screen{DIO,CLK}" input
+			(at 178.435 93.98 180)
+			(uuid "d4067baa-48ef-4db0-b813-6534ffe6c4cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Water_Level{Trig Echo}" input
+			(at 178.435 106.68 180)
+			(uuid "b8c499d7-9d50-4b53-97cf-dd66ab44e7e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 89.535 93.345)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a76cc5d0-f19b-45e7-b348-68021cdb7480")
+		(property "Sheetname" "Power_supply"
+			(at 89.535 92.6334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_supply.kicad_sch"
+			(at 89.535 111.7096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.825 70.485)
+		(size 45.085 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc8fea46-71c3-4517-8c6d-a20801d5c6f4")
+		(property "Sheetname" "Microcontroller"
+			(at 123.825 69.7734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 123.825 111.7096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BTN[0..7]" input
+			(at 168.91 74.93 0)
+			(uuid "f94a21e9-d8b1-4fb1-b6f1-3f25501c0de8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED[0..7]" input
+			(at 168.91 76.835 0)
+			(uuid "67b43bec-88e3-470f-8d65-3facc2559248")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COIN" input
+			(at 168.91 97.79 0)
+			(uuid "3f6fc467-7c1a-4705-a480-fb7b4158f6ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pulse" input
+			(at 168.91 95.885 0)
+			(uuid "187dbfe1-cca6-424b-8a5f-a79fe80fe68b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LD[0..7]" input
+			(at 168.91 78.74 0)
+			(uuid "4fb5591e-593c-40fb-8afb-f47e4234c08e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "QR{TX,RX}" input
+			(at 168.91 101.6 0)
+			(uuid "7a78e1b3-ba21-4d35-91d2-a23b32f8427a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RASPI{TX,RX}" input
+			(at 168.91 104.14 0)
+			(uuid "e5df73fa-6012-45c0-b706-53d73c144b03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Screen{DIO,CLK}" input
+			(at 168.91 93.98 0)
+			(uuid "26390a29-1ff5-4322-9d9d-7f4249fbd9c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Water_Level{Trig Echo}" input
+			(at 168.91 106.68 0)
+			(uuid "419c8aa6-3cf8-408e-8485-51635283850a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
