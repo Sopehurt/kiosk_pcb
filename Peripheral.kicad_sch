@@ -603,6 +603,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 84.455 133.985)
+		(uuid "3de29d72-20d9-4218-afee-15db7f9afce5")
+	)
+	(no_connect
+		(at 84.455 88.265)
+		(uuid "7565a821-e3b6-4f15-abb2-0cffa18029cc")
+	)
+	(no_connect
+		(at 84.455 122.555)
+		(uuid "a39b6fbe-e35b-41ac-9107-f2f3195c7222")
+	)
+	(no_connect
+		(at 84.455 99.695)
+		(uuid "a42e8bec-255d-47f9-8695-d97192a1bfd8")
+	)
+	(no_connect
+		(at 84.455 111.125)
+		(uuid "c39cbb92-79a6-40a2-beb0-7e833290e08d")
+	)
+	(no_connect
+		(at 84.455 76.835)
+		(uuid "e0965eb1-b0ee-4429-9cde-a91c705fede2")
+	)
 	(bus
 		(pts
 			(xy 38.1 15.24) (xy 43.18 15.24)
@@ -613,6 +637,16 @@
 		)
 		(uuid "05df1856-31ff-46d9-81cb-4fbdb736d628")
 	)
+	(wire
+		(pts
+			(xy 111.125 104.775) (xy 84.455 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2de261-63f3-4087-8924-a632b664d7ce")
+	)
 	(bus
 		(pts
 			(xy 38.1 22.86) (xy 43.18 22.86)
@@ -622,6 +656,16 @@
 			(type default)
 		)
 		(uuid "0d9674c2-96ae-4e08-9620-db3c709f9f78")
+	)
+	(wire
+		(pts
+			(xy 84.455 102.235) (xy 87.63 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d1e36b-4284-492a-b9ed-43d06ce6d099")
 	)
 	(bus
 		(pts
@@ -635,13 +679,33 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 76.835) (xy 87.63 76.835)
+			(xy 86.995 141.605) (xy 84.455 141.605)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "204430c1-7575-4513-8b81-55a10c68bc1f")
+		(uuid "1f6599df-4e4d-4d91-97ce-f0075635fb62")
+	)
+	(wire
+		(pts
+			(xy 111.125 139.065) (xy 84.455 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213333ca-fedd-4683-a5dc-a791f72c2a9c")
+	)
+	(wire
+		(pts
+			(xy 86.995 107.315) (xy 84.455 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34814f37-c1ee-4a24-a57d-1c8c9427eb43")
 	)
 	(wire
 		(pts
@@ -685,13 +749,63 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 84.455) (xy 87.63 84.455)
+			(xy 86.995 84.455) (xy 84.455 84.455)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7508cda4-a0e1-4bcf-b7b8-a0add2566d64")
+		(uuid "61a0cfcc-1b31-4440-bb7d-b1fe0896f5a9")
+	)
+	(wire
+		(pts
+			(xy 86.995 95.885) (xy 84.455 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697a50b3-326c-44c3-87ce-205ee088c852")
+	)
+	(wire
+		(pts
+			(xy 84.455 90.805) (xy 87.63 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b18ffa-29e9-4246-8692-571d0a6bfefa")
+	)
+	(wire
+		(pts
+			(xy 111.125 93.345) (xy 84.455 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7941186c-610e-41c2-b6c5-c3230d903377")
+	)
+	(wire
+		(pts
+			(xy 111.125 116.205) (xy 84.455 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7947db34-b59a-4b46-ae65-35e7adc4fcfc")
+	)
+	(wire
+		(pts
+			(xy 84.455 136.525) (xy 87.63 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1ae63e-bb3e-4caa-879f-2a1f9aeb501d")
 	)
 	(wire
 		(pts
@@ -755,13 +869,43 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 79.375) (xy 111.76 79.375)
+			(xy 86.995 130.175) (xy 84.455 130.175)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0499433-05ad-4752-b8fb-742929fa3a2a")
+		(uuid "a0b702c8-39e9-4579-a98e-c7def06b0d66")
+	)
+	(wire
+		(pts
+			(xy 111.125 127.635) (xy 84.455 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7207c2d-ab9d-4b67-9eb6-9d8fde3fe944")
+	)
+	(wire
+		(pts
+			(xy 111.125 81.915) (xy 84.455 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8724105-f8f9-4844-b074-cdaaff442b1d")
+	)
+	(wire
+		(pts
+			(xy 84.455 125.095) (xy 87.63 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abad38a3-26ac-4455-90ec-7d6113666665")
 	)
 	(wire
 		(pts
@@ -772,16 +916,6 @@
 			(type default)
 		)
 		(uuid "ad65a99c-bda9-4af6-9441-6ec2559b7e5c")
-	)
-	(wire
-		(pts
-			(xy 84.455 81.915) (xy 111.76 81.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "addb08e6-227c-4da8-ac4e-6355b3661c23")
 	)
 	(wire
 		(pts
@@ -845,6 +979,26 @@
 	)
 	(wire
 		(pts
+			(xy 84.455 79.375) (xy 87.63 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f0d0ce-7892-4e79-9f3f-8ad0516d9e2b")
+	)
+	(wire
+		(pts
+			(xy 84.455 113.665) (xy 87.63 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d999331b-6c3b-46d3-9bf9-2c5421113093")
+	)
+	(wire
+		(pts
 			(xy 84.455 34.29) (xy 87.63 34.29)
 		)
 		(stroke
@@ -863,15 +1017,25 @@
 		)
 		(uuid "ec8e4767-2e54-409e-8f50-9fa35bd18085")
 	)
-	(label "Water_Level.Echo"
-		(at 111.76 81.915 180)
+	(wire
+		(pts
+			(xy 86.995 118.745) (xy 84.455 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f44f4f-b9ea-4d3b-8eaa-0df1a3fb3ff5")
+	)
+	(label "Water_Trigger4"
+		(at 111.125 127.635 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1dc0236c-d825-4695-ba85-5b75d2c7d338")
+		(uuid "2d49f593-23d2-41b2-b3e2-af0a3c435bce")
 	)
 	(label "QR.RX"
 		(at 107.95 67.31 180)
@@ -893,6 +1057,16 @@
 		)
 		(uuid "57a12c6c-0ddd-4a15-b670-fa88d8b03f1d")
 	)
+	(label "Water_Trigger1"
+		(at 111.125 93.345 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58ea4e88-1dac-45e7-8f4d-0322d20f6b32")
+	)
 	(label "Screen.CLK"
 		(at 107.95 41.91 180)
 		(effects
@@ -902,16 +1076,6 @@
 			(justify right bottom)
 		)
 		(uuid "708d5729-ce93-4c5d-89bf-e50f7559f877")
-	)
-	(label "Water_Level.Trig"
-		(at 111.76 79.375 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b6a7046-20a5-42ff-95b9-6651cd63ef88")
 	)
 	(label "Screen.DIO"
 		(at 107.95 39.37 180)
@@ -923,6 +1087,16 @@
 		)
 		(uuid "9daa17ca-a9dd-45c3-865f-9c4d102e2ea6")
 	)
+	(label "Water_Trigger0"
+		(at 111.125 81.915 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "adae7a77-3337-4e95-99ad-c8c9fdb8b390")
+	)
 	(label "RASPI.TX"
 		(at 59.055 49.53 180)
 		(effects
@@ -932,6 +1106,36 @@
 			(justify right bottom)
 		)
 		(uuid "c67036a1-b187-4a68-b46c-6392c0334385")
+	)
+	(label "Water_Trigger3"
+		(at 111.125 116.205 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd7ad2d2-3585-46ee-971d-a30a570c726d")
+	)
+	(label "Water_Trigger2"
+		(at 111.125 104.775 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7fed943-3788-4457-af7f-5f8630c4b36c")
+	)
+	(label "Water_Trigger5"
+		(at 111.125 139.065 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e40d35d7-a351-477d-ae38-6e37edb5f3ae")
 	)
 	(label "QR.TX"
 		(at 107.95 64.77 180)
@@ -965,7 +1169,7 @@
 		)
 		(uuid "2b6cd7a7-8df8-4b15-a737-46a0a8987baa")
 	)
-	(hierarchical_label "Water_Level{Trig Echo}"
+	(hierarchical_label "Water_Trigger[0..5]"
 		(shape input)
 		(at 38.1 22.86 180)
 		(effects
@@ -1238,16 +1442,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 87.63 76.835 270)
+		(at 86.995 84.455 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0eaee2af-a22b-4825-a89b-066bbc6bbdcf")
 		(property "Reference" "#PWR065"
-			(at 83.82 76.835 0)
+			(at 83.185 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,8 +1458,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 90.805 76.8349 90)
+		(property "Value" "+12V"
+			(at 90.17 84.455 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 76.835 0)
+			(at 86.995 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 76.835 0)
+			(at 86.995 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +1486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 87.63 76.835 0)
+			(at 86.995 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,16 +1783,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 84.455 90)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 79.375 102.235 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "299cf434-c866-4782-b7a3-95ce4a0fe1f6")
-		(property "Reference" "#PWR067"
-			(at 93.98 84.455 0)
+		(uuid "28d99d10-a3c5-4061-b723-0c32d5d513fb")
+		(property "Reference" "J25"
+			(at 76.835 102.2349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Water Level"
+			(at 76.835 104.7749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 79.375 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,17 +1819,92 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 90.805 84.455 90)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 79.375 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 79.375 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 79.375 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 79.375 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "471d9c4f-5307-4fbe-aec8-fe04fb9d446a")
+		)
+		(pin "4"
+			(uuid "87f35206-661d-431e-a91f-4770a08a8ea3")
+		)
+		(pin "2"
+			(uuid "414fdbb8-1518-444b-927a-bc752218cb0e")
+		)
+		(pin "1"
+			(uuid "b73c066f-f7b9-48c8-89d1-5684b88c8f8a")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 86.995 130.175 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2971459b-8223-4756-9562-f21d39b2b8d6")
+		(property "Reference" "#PWR0150"
+			(at 83.185 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 90.17 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 84.455 0)
+			(at 86.995 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1913,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 84.455 0)
+			(at 86.995 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.995 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f185c64-12bb-471a-a06e-3cc62fc01b27")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 79.375 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "299cf434-c866-4782-b7a3-95ce4a0fe1f6")
+		(property "Reference" "#PWR067"
+			(at 93.98 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.805 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1988,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 84.455 0)
+			(at 87.63 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,6 +2069,496 @@
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 102.235 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ca6b07f-1664-4e6f-a816-c3f119584d4f")
+		(property "Reference" "#PWR0148"
+			(at 93.98 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.805 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "923d4c1c-3c0c-4b2c-8160-255797dbe0d8")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 125.095 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6268bb97-fe1f-41db-b445-2fb62dc902fd")
+		(property "Reference" "#PWR0153"
+			(at 93.98 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.805 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54938331-6f3b-4670-8839-dd3573b88f1f")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 86.995 141.605 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63383272-66d0-4065-8980-f9045cb9bbc7")
+		(property "Reference" "#PWR0151"
+			(at 83.185 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 90.17 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.995 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0deee400-b0ac-4a48-9f3c-b3fdd267483e")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 79.375 113.665 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c0fae95-4e9f-4074-a7b3-a95dc7970139")
+		(property "Reference" "J26"
+			(at 76.835 113.6649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Water Level"
+			(at 76.835 116.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 79.375 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 79.375 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 79.375 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 79.375 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 79.375 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3ae86342-ae85-46b1-82c4-66602ed7e1b1")
+		)
+		(pin "4"
+			(uuid "60f09343-15a5-4d7a-babc-d5b07b0f651a")
+		)
+		(pin "2"
+			(uuid "e7fb0292-872c-4b63-87e1-c4959cb4e12d")
+		)
+		(pin "1"
+			(uuid "70466b85-5838-4b57-911f-7f1091ff1128")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 136.525 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7854c022-1312-41b4-98b8-a3841b928410")
+		(property "Reference" "#PWR0154"
+			(at 93.98 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.805 136.525 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ded76436-b023-43ef-9195-47bc7fd9163b")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 113.665 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "838688fb-7312-4731-8282-296e2628203f")
+		(property "Reference" "#PWR0152"
+			(at 93.98 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.805 113.665 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f135a1b9-fd71-404d-9b51-139a3e122b74")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 86.995 95.885 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9677893f-f20d-4d1f-acd0-e49009c5d9c4")
+		(property "Reference" "#PWR0145"
+			(at 83.185 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 90.17 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.995 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "391821e2-4ec4-4042-8c88-7aa68e951cff")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -1800,6 +2653,100 @@
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
 					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 79.375 90.805 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "972491aa-2042-4fab-a395-776d7c5f475d")
+		(property "Reference" "J24"
+			(at 76.835 90.8049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Water Level"
+			(at 76.835 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 79.375 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 79.375 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 79.375 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 79.375 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 79.375 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ccd3969f-c701-4e36-8e18-43421fe169bb")
+		)
+		(pin "4"
+			(uuid "2d51de40-ed42-4b25-86ec-7b57e967aaae")
+		)
+		(pin "2"
+			(uuid "71e799fb-e3d1-4166-880c-2ce2c76ae04c")
+		)
+		(pin "1"
+			(uuid "ddd27c6e-4db4-4896-a6b0-d158ae40f301")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -1939,6 +2886,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 87.63 90.805 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a00e1c1c-30e5-4e3f-b0e9-dd0ec8e303ee")
+		(property "Reference" "#PWR0146"
+			(at 93.98 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.805 90.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32b9fdb9-4350-4b77-83a1-0d4e37c8e3df")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 87.63 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1998,6 +3011,100 @@
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
 					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 79.375 136.525 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2626bd2-34ad-435e-ba18-41cb9fc28d12")
+		(property "Reference" "J28"
+			(at 76.835 136.5249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Water Level"
+			(at 76.835 139.0649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 79.375 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 79.375 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 79.375 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 79.375 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 79.375 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "699a79bc-2fa2-49d3-b193-aaa1c3f76012")
+		)
+		(pin "4"
+			(uuid "7e1495e8-d4d7-498d-ae0e-f0e474a1e139")
+		)
+		(pin "2"
+			(uuid "d6a847df-4e60-454d-ad13-95797a6563c9")
+		)
+		(pin "1"
+			(uuid "32941669-77aa-4bd7-a2b6-f1e63d205785")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -2092,6 +3199,138 @@
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
 					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 86.995 107.315 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3aaba73-fdf5-4c02-a873-45edffda425f")
+		(property "Reference" "#PWR0147"
+			(at 83.185 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 90.17 107.315 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.995 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f97148ea-b9e2-4f15-8d6e-baf9eaec92bf")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 86.995 118.745 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da0dcb98-7548-4b7e-b238-654649628751")
+		(property "Reference" "#PWR0149"
+			(at 83.185 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 90.17 118.745 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.995 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.995 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.995 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40426bc1-830b-4b0c-bd10-e8ffcb130896")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -2224,6 +3463,100 @@
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
 					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 79.375 125.095 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6aa455d-59d4-45c1-8612-12f7582774b8")
+		(property "Reference" "J27"
+			(at 76.835 125.0949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Water Level"
+			(at 76.835 127.6349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 79.375 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 79.375 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 79.375 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C7429634"
+			(at 79.375 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 79.375 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "94062978-c172-4672-b815-928317118630")
+		)
+		(pin "4"
+			(uuid "17f83be5-d608-4e31-8e57-ff78a0075c46")
+		)
+		(pin "2"
+			(uuid "aee79e30-416f-452b-9c62-5998eb3005c8")
+		)
+		(pin "1"
+			(uuid "b23a3eae-3b31-4569-b94b-7affb2ac6bf9")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/9f2adda4-bc0e-4374-9492-404bc1f22ca7"
+					(reference "J27")
 					(unit 1)
 				)
 			)

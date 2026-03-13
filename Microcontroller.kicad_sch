@@ -3968,16 +3968,6 @@
 	)
 	(bus
 		(pts
-			(xy 247.015 66.04) (xy 241.935 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af346ded-a64c-4d43-a5ea-ea7e95d304dc")
-	)
-	(bus
-		(pts
 			(xy 102.235 99.695) (xy 102.235 102.235)
 		)
 		(stroke
@@ -4325,6 +4315,16 @@
 			(type default)
 		)
 		(uuid "d3a49391-b6b7-4e58-a423-f8c13f52d8c9")
+	)
+	(bus
+		(pts
+			(xy 254 67.945) (xy 248.92 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3db89a2-00d9-4d17-8000-3ac26cd356d7")
 	)
 	(wire
 		(pts
@@ -23304,17 +23304,6 @@
 		)
 		(uuid "1c38696b-fe3c-45f9-ad02-91bf5a6218f4")
 	)
-	(hierarchical_label "Water_Level{Trig Echo}"
-		(shape input)
-		(at 247.015 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "336b2aa1-acbb-4f85-b987-c90ee931630e")
-	)
 	(hierarchical_label "LD[0..7]"
 		(shape input)
 		(at 103.505 43.815 0)
@@ -23325,6 +23314,17 @@
 			(justify left)
 		)
 		(uuid "3ff08cfc-2d40-44db-b444-0c70f4983087")
+	)
+	(hierarchical_label "Water_Trigger[0..5]"
+		(shape input)
+		(at 254 67.945 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50d5c06c-2730-4152-9bc5-4645a99a017e")
 	)
 	(hierarchical_label "RASPI{TX,RX}"
 		(shape input)
