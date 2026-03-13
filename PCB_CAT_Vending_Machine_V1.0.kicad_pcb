@@ -239,7 +239,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -464,7 +464,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -690,7 +690,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -1182,7 +1182,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -1420,7 +1420,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -1769,7 +1769,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -2232,7 +2232,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -2457,7 +2457,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -2695,7 +2695,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -2955,7 +2955,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -3386,7 +3386,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -3611,7 +3611,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -3836,7 +3836,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -4135,7 +4135,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -4359,7 +4359,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -4656,7 +4656,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "12eae173-5ac2-4efe-93c3-1ced8b90b336")
-		(at 159.8675 25.46)
+		(at 17.3425 63.53)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R56"
@@ -4665,8 +4665,8 @@
 			(uuid "66806c2c-0817-4c11-88ad-cc54499bfb30")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -4891,7 +4891,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -5106,7 +5106,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1858cf23-8068-4427-92e2-563ec7c6f111")
-		(at 147.4475 25.76)
+		(at 8.5425 53.59)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D19"
@@ -5115,8 +5115,8 @@
 			(uuid "277e510c-0101-47fe-8486-526f9a572dc6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -5376,7 +5376,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -5601,7 +5601,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -5824,7 +5824,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -6287,7 +6287,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -6502,7 +6502,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1cc2522c-f2aa-4d62-b039-bd855864ece0")
-		(at 156.4075 25.76)
+		(at 13.8825 63.83)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D21"
@@ -6511,8 +6511,8 @@
 			(uuid "ae4189ad-150e-4b21-a226-5581dad025e6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -6772,7 +6772,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -7122,7 +7122,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -7429,7 +7429,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -7654,7 +7654,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -7879,7 +7879,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -8104,7 +8104,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -8455,7 +8455,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -8680,7 +8680,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -9021,24 +9021,24 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "29c97dc7-0519-4d8b-8d12-81f16830af65")
-		(at 150.9075 34.63)
+		(at 36 70.5 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R80"
-			(at 0 -1.17 0)
+			(at 0 -1.17 90)
 			(layer "F.SilkS")
-			(uuid "1cb2a7b7-01db-4079-b00b-d7b151c68d27")
+			(uuid "9d1de99b-acec-4953-a93c-9dfbb605ff93")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.17 0)
+			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "21c5f053-487e-4e9a-928a-787e7148184f")
+			(uuid "c2a4b214-de5d-4b50-97a3-7a93c0d8cfae")
 			(effects
 				(font
 					(size 1 1)
@@ -9047,10 +9047,10 @@
 			)
 		)
 		(property "Datasheet" "-55℃~+155℃ 4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "acacfcec-427e-41d6-a5a3-71dd372d7243")
+			(uuid "c1c883d5-63d1-4364-9155-cc402216f552")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,10 +9059,10 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10d2f840-2500-4177-8b47-89d9375ff514")
+			(uuid "75f7bcbf-bc30-4d4d-9749-87f2635d63fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9071,7 +9071,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9084,7 +9084,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9102,16 +9102,6 @@
 		(sheetfile "BTNkicad_sch.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7b0fc881-1aa0-4a6b-b3a4-a1f0ed480f9c")
-		)
-		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
 			(stroke
@@ -9122,14 +9112,14 @@
 			(uuid "cb3adf9b-e25b-431a-87e4-816c38e75579")
 		)
 		(fp_line
-			(start -0.93 -0.47)
-			(end 0.93 -0.47)
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "99669ff0-749b-4127-886e-8a19db8f6626")
+			(layer "F.SilkS")
+			(uuid "7b0fc881-1aa0-4a6b-b3a4-a1f0ed480f9c")
 		)
 		(fp_line
 			(start -0.93 0.47)
@@ -9142,16 +9132,6 @@
 			(uuid "f07a0f4b-12f3-492e-9d05-09582cb58b20")
 		)
 		(fp_line
-			(start 0.93 -0.47)
-			(end 0.93 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8ba9003c-8067-4779-8211-7da30c34359d")
-		)
-		(fp_line
 			(start 0.93 0.47)
 			(end -0.93 0.47)
 			(stroke
@@ -9162,14 +9142,24 @@
 			(uuid "ff971b61-6126-4dc1-bbd5-a4abe7dd4004")
 		)
 		(fp_line
-			(start -0.525 -0.27)
-			(end 0.525 -0.27)
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "acdc53e9-0ec8-4869-a078-76b83e419d65")
+			(layer "F.CrtYd")
+			(uuid "99669ff0-749b-4127-886e-8a19db8f6626")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8ba9003c-8067-4779-8211-7da30c34359d")
 		)
 		(fp_line
 			(start -0.525 0.27)
@@ -9182,16 +9172,6 @@
 			(uuid "b9a232ad-31fa-4b04-96d8-b30605f54248")
 		)
 		(fp_line
-			(start 0.525 -0.27)
-			(end 0.525 0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6f1b5152-ca9f-43b9-9196-a6d262860dca")
-		)
-		(fp_line
 			(start 0.525 0.27)
 			(end -0.525 0.27)
 			(stroke
@@ -9201,8 +9181,28 @@
 			(layer "F.Fab")
 			(uuid "4cd1eb63-4153-40a2-8266-5834706bcd0b")
 		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "acdc53e9-0ec8-4869-a078-76b83e419d65")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6f1b5152-ca9f-43b9-9196-a6d262860dca")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "7c89e6c8-4724-4585-9683-64b606805375")
 			(effects
@@ -9213,7 +9213,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0)
+			(at -0.51 0 270)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9222,7 +9222,7 @@
 			(uuid "2c7a3e2f-b531-4665-b636-d260f05e34aa")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0)
+			(at 0.51 0 270)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9256,7 +9256,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -9481,7 +9481,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -9709,7 +9709,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2cf47d89-f300-4dd7-b7fb-77ca8c432eda")
-		(at 138.4875 32.94)
+		(at -4.0375 71.01)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D22"
@@ -9718,8 +9718,8 @@
 			(uuid "80413ba7-6127-4a3d-8364-fa6ed88da904")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -9977,7 +9977,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -10430,7 +10430,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2f51cbab-e6b2-4be5-8091-5f426c62f752")
-		(at 138.4875 25.76)
+		(at -4.0375 63.83)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D23"
@@ -10439,8 +10439,8 @@
 			(uuid "e83f0db7-5186-4a08-b7af-829044113528")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -10700,7 +10700,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -10999,7 +10999,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -11224,7 +11224,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -11449,7 +11449,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -11664,7 +11664,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "36e06b19-0e8d-4d3b-8354-fb36daad2fe2")
-		(at 159.8675 27.45)
+		(at 17.3425 65.52)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R85"
@@ -11673,8 +11673,8 @@
 			(uuid "40c1c5cb-b142-4514-9fed-e2956a64c266")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -11899,7 +11899,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -12124,7 +12124,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -12351,7 +12351,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -12480,7 +12480,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -12705,7 +12705,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -12930,7 +12930,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -13155,7 +13155,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -13381,7 +13381,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -13873,7 +13873,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -14098,7 +14098,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -14323,7 +14323,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -14548,7 +14548,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -14899,7 +14899,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -15124,7 +15124,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -15347,7 +15347,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -15810,7 +15810,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -16035,7 +16035,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -16260,7 +16260,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -16486,7 +16486,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -16978,7 +16978,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -17202,7 +17202,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -17509,7 +17509,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -17978,7 +17978,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -18193,7 +18193,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "548a88d6-6c2d-4d69-a555-277bd7ad66e4")
-		(at 150.9075 25.46)
+		(at 12.0025 53.29)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R44"
@@ -18202,8 +18202,8 @@
 			(uuid "716447ff-3b8b-41a9-a07c-7c8051289b5d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -18429,7 +18429,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -18921,7 +18921,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -19146,7 +19146,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -19371,7 +19371,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -19669,7 +19669,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -19975,7 +19975,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -20282,7 +20282,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -20520,7 +20520,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -20746,7 +20746,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -21238,7 +21238,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -21463,7 +21463,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -21678,7 +21678,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5d70113a-11cb-41f9-bb8f-7590ac854103")
-		(at 156.4075 35.53)
+		(at 13.8825 73.6)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D32"
@@ -21687,8 +21687,8 @@
 			(uuid "861fe7bd-ebf2-4b98-b0c9-b69b8d013367")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -21948,7 +21948,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -22208,7 +22208,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -22639,7 +22639,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -22854,7 +22854,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "622de875-ef8c-4ca4-8f39-800858ecf6ce")
-		(at 159.8675 34.63)
+		(at 17.3425 72.7)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R88"
@@ -22863,8 +22863,8 @@
 			(uuid "b7b67978-0c85-4528-a781-b0f79894e50c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -23089,7 +23089,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -23328,7 +23328,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -23820,7 +23820,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -24035,7 +24035,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6b975bbf-9553-41b3-82be-f9d401a1d1db")
-		(at 156.4075 32.94)
+		(at 13.8825 71.01)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D24"
@@ -24044,8 +24044,8 @@
 			(uuid "d5062363-d4fa-43f1-996b-32b02fc77b97")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -24305,7 +24305,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -24530,7 +24530,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -24948,7 +24948,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -25208,7 +25208,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -25559,7 +25559,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -25819,7 +25819,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -26044,7 +26044,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -26259,7 +26259,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "739de4c1-dfbc-4d2e-9172-766e6e110618")
-		(at 156.4075 28.35)
+		(at 13.8825 66.42)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D29"
@@ -26268,8 +26268,8 @@
 			(uuid "5d471d5d-6066-49a9-9574-94b956d389f9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -26529,7 +26529,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -26998,7 +26998,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -27223,7 +27223,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -27448,7 +27448,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -27747,7 +27747,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -27972,7 +27972,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -28197,7 +28197,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -28425,22 +28425,22 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7a4cbe02-edc5-48b2-93fd-deb6e394db54")
-		(at 147.4475 35.53)
+		(at 37.5 70.5 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D26"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "0ff7d154-9360-42cd-b44b-a23d99d83d11")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "8992c537-32d1-4a61-8b13-5102f2312ae2")
 			(effects
@@ -28451,7 +28451,7 @@
 			)
 		)
 		(property "Datasheet" "KT-0603W"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a41e1732-4fed-4fe3-809e-7dc5a86c2410")
@@ -28463,7 +28463,7 @@
 			)
 		)
 		(property "Description" "100mW 120° 2.6V~3.1V 360mcd 5mA Discrete Diode Top-mount White Yellow Lens 0603 LED Indication - Discrete ROHS"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02dde4e1-54fb-43a6-8230-257879ff9ef8")
@@ -28475,7 +28475,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28488,7 +28488,7 @@
 			)
 		)
 		(property "LCSC" "C2290"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28501,7 +28501,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -28518,6 +28518,16 @@
 		(sheetname "/Connector/BTN0/")
 		(sheetfile "BTNkicad_sch.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "48b6f14f-8ca3-4276-aeeb-fe5ee26c27ba")
+		)
 		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
@@ -28539,14 +28549,14 @@
 			(uuid "d61eeacc-4e83-4741-9f85-14f57187d020")
 		)
 		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485 -0.735)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "48b6f14f-8ca3-4276-aeeb-fe5ee26c27ba")
+			(layer "F.CrtYd")
+			(uuid "19595066-10d5-46ea-bd48-583376fafafb")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -28559,26 +28569,6 @@
 			(uuid "d530a17f-f623-422d-8f28-550471601616")
 		)
 		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5b46d372-6abb-4735-9991-65b4a6e5ccce")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "19595066-10d5-46ea-bd48-583376fafafb")
-		)
-		(fp_line
 			(start 1.48 0.73)
 			(end -1.48 0.73)
 			(stroke
@@ -28589,34 +28579,14 @@
 			(uuid "cb7a5f7d-a776-44cc-803a-f2e026b9da7e")
 		)
 		(fp_line
-			(start -0.8 -0.1)
-			(end -0.8 0.4)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "2e2238f9-8577-4a66-b643-f03428b3b6e9")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5abf57a0-f276-4276-b0a0-63fb752d42d2")
-		)
-		(fp_line
-			(start -0.5 -0.4)
-			(end -0.8 -0.1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "74e85dcc-b34f-4299-a017-9c44321676e4")
+			(layer "F.CrtYd")
+			(uuid "5b46d372-6abb-4735-9991-65b4a6e5ccce")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -28629,6 +28599,26 @@
 			(uuid "189b3cbc-1dfc-4eb3-837e-9db299208db7")
 		)
 		(fp_line
+			(start -0.5 -0.4)
+			(end -0.8 -0.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74e85dcc-b34f-4299-a017-9c44321676e4")
+		)
+		(fp_line
+			(start -0.8 -0.1)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2e2238f9-8577-4a66-b643-f03428b3b6e9")
+		)
+		(fp_line
 			(start 0.8 0.4)
 			(end 0.8 -0.4)
 			(stroke
@@ -28638,8 +28628,18 @@
 			(layer "F.Fab")
 			(uuid "408039c7-257c-406f-b0d7-a65eff601358")
 		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5abf57a0-f276-4276-b0a0-63fb752d42d2")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "e00a56be-0523-44eb-9f63-347028b7a205")
 			(effects
@@ -28650,7 +28650,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -28660,7 +28660,7 @@
 			(uuid "20cef539-349f-4cde-bdbb-ce91582eae1f")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -28695,7 +28695,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -28920,7 +28920,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -29145,7 +29145,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -29360,7 +29360,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7f16b505-62bf-4e46-9cc1-789406cc67d2")
-		(at 147.4475 42.71)
+		(at 4.9225 80.78)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D33"
@@ -29369,8 +29369,8 @@
 			(uuid "84942c89-680b-491b-abb1-036155915b08")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -29630,7 +29630,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -29982,7 +29982,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -30474,7 +30474,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -30773,7 +30773,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -30998,7 +30998,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -31213,7 +31213,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "84504372-6736-4ff5-9cb9-d20dc3b3efa0")
-		(at 147.4475 40.12)
+		(at 4.9225 78.19)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D25"
@@ -31222,8 +31222,8 @@
 			(uuid "4afab8e4-f8a5-4799-b5e2-165561e475b2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -31483,7 +31483,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -31708,7 +31708,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -32059,7 +32059,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -32284,7 +32284,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -32499,7 +32499,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "89548bc9-305a-4b47-b435-db43f718d7b1")
-		(at 138.4875 40.12)
+		(at -4.0375 78.19)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D20"
@@ -32508,8 +32508,8 @@
 			(uuid "76144e07-ca3b-4c3a-a36f-e948b53cb15b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -32769,7 +32769,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -33120,7 +33120,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -33345,7 +33345,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -33560,7 +33560,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8cdec7ad-0b04-4947-814e-a835b9ea3424")
-		(at 159.8675 32.64)
+		(at 17.3425 70.71)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R74"
@@ -33569,8 +33569,8 @@
 			(uuid "e9568864-b4ee-4ca4-8f93-9659a27dfaae")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -33795,7 +33795,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -34020,7 +34020,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -35076,7 +35076,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -35302,7 +35302,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -35783,7 +35783,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -36132,7 +36132,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -36595,7 +36595,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -36820,7 +36820,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -37035,7 +37035,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9a79329a-01d5-4ab8-8452-352800ef70c1")
-		(at 138.4875 35.53)
+		(at -4.0375 73.6)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D30"
@@ -37044,8 +37044,8 @@
 			(uuid "eae69c4b-d18e-4a7c-8c8a-7fbbc107a460")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -37305,7 +37305,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -37604,7 +37604,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -37829,7 +37829,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -38054,7 +38054,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -38280,7 +38280,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -38772,7 +38772,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -39032,7 +39032,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -39255,7 +39255,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -39494,7 +39494,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -39717,7 +39717,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -40180,7 +40180,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -40405,7 +40405,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -40631,7 +40631,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -41113,7 +41113,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b015a8d7-3ab7-446f-9590-33fba21efb7b")
-		(at 141.9475 25.46)
+		(at -0.5775 63.53)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R68"
@@ -41122,8 +41122,8 @@
 			(uuid "6d2e640c-8022-47e3-93e5-5e5cad1abec8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -41348,7 +41348,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -41699,7 +41699,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -41924,7 +41924,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -42236,7 +42236,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -42461,7 +42461,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -42699,7 +42699,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -42924,7 +42924,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -43149,7 +43149,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -43399,7 +43399,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b5958099-49e7-4add-8a54-0b8bcce7a89c")
-		(at 141.9475 32.64)
+		(at -0.5775 70.71)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R62"
@@ -43408,8 +43408,8 @@
 			(uuid "4724bda8-8708-4ef5-b59b-c3a487e314b2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -43635,7 +43635,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -44127,7 +44127,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -44352,7 +44352,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -44577,7 +44577,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -44802,7 +44802,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -45017,7 +45017,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "bff4cc84-b655-4971-8a8c-49446460b6ba")
-		(at 141.9475 34.63)
+		(at -0.5775 72.7)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R86"
@@ -45026,8 +45026,8 @@
 			(uuid "71ec6e9b-3076-427a-9155-5fe1fdf13ea3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -45252,7 +45252,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -45467,7 +45467,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c04a244a-402e-4604-985c-a60aeaa558eb")
-		(at 138.4875 42.71)
+		(at -4.0375 80.78)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D28"
@@ -45476,8 +45476,8 @@
 			(uuid "c57e117e-56ca-4a14-bfc9-e51b608f2a20")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -45737,7 +45737,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -45987,7 +45987,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c44eb7bc-d973-4f55-a904-3c516e418da1")
-		(at 150.9075 41.81)
+		(at 8.3825 79.88)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R89"
@@ -45996,8 +45996,8 @@
 			(uuid "5e4cf1f8-1046-4a05-b466-5685fc189265")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -46222,7 +46222,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -46445,7 +46445,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -46908,7 +46908,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -47133,7 +47133,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -47486,7 +47486,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -47615,7 +47615,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -47840,7 +47840,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -48055,22 +48055,22 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cb9277c6-c1d3-4d9a-b206-2722bc451f98")
-		(at 147.4475 32.94)
+		(at 37.5 67 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D18"
-			(at 0 -1.43 0)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "f1da748a-0a24-4663-b258-fa6d12bacde4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "24580779-d11a-4370-828b-5740cc177bec")
 			(effects
@@ -48081,7 +48081,7 @@
 			)
 		)
 		(property "Datasheet" "KT-0603W"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "62d4cb96-62bc-4fe2-ba14-2325bb036a16")
@@ -48093,7 +48093,7 @@
 			)
 		)
 		(property "Description" "100mW 120° 2.6V~3.1V 360mcd 5mA Discrete Diode Top-mount White Yellow Lens 0603 LED Indication - Discrete ROHS"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d57b3a71-fe12-4bac-9879-4dc28f74b231")
@@ -48105,7 +48105,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -48118,7 +48118,7 @@
 			)
 		)
 		(property "LCSC" "C2290"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -48131,7 +48131,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -48148,6 +48148,16 @@
 		(sheetname "/Connector/BTN0/")
 		(sheetfile "BTNkicad_sch.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start 0.8 -0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1df0c0ec-91c8-4b91-b5c3-8ca52aedb831")
+		)
 		(fp_line
 			(start -1.485 -0.735)
 			(end -1.485 0.735)
@@ -48169,14 +48179,14 @@
 			(uuid "20019a17-4f23-41f8-93d3-a1214a6db9d3")
 		)
 		(fp_line
-			(start 0.8 -0.735)
-			(end -1.485 -0.735)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "1df0c0ec-91c8-4b91-b5c3-8ca52aedb831")
+			(layer "F.CrtYd")
+			(uuid "b56a06dc-0b1c-42ad-963d-e8aec5521b4a")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -48189,26 +48199,6 @@
 			(uuid "695e04ea-6132-4476-b4c9-273a7e500328")
 		)
 		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a04daffa-21a5-4725-9bb4-76142e3f4620")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b56a06dc-0b1c-42ad-963d-e8aec5521b4a")
-		)
-		(fp_line
 			(start 1.48 0.73)
 			(end -1.48 0.73)
 			(stroke
@@ -48219,34 +48209,14 @@
 			(uuid "239cc541-ef3e-4c25-80e6-dae66812173f")
 		)
 		(fp_line
-			(start -0.8 -0.1)
-			(end -0.8 0.4)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "4c8832bd-371e-47ae-8297-687d5ff1bb0e")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f14d5e2f-897b-4758-924c-14c9a6f01d1e")
-		)
-		(fp_line
-			(start -0.5 -0.4)
-			(end -0.8 -0.1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "87e45a27-f02e-47e3-8d34-a869180209af")
+			(layer "F.CrtYd")
+			(uuid "a04daffa-21a5-4725-9bb4-76142e3f4620")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -48259,6 +48229,26 @@
 			(uuid "64537f71-932c-49fb-9fbb-18d95f5ecd6f")
 		)
 		(fp_line
+			(start -0.5 -0.4)
+			(end -0.8 -0.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "87e45a27-f02e-47e3-8d34-a869180209af")
+		)
+		(fp_line
+			(start -0.8 -0.1)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4c8832bd-371e-47ae-8297-687d5ff1bb0e")
+		)
+		(fp_line
 			(start 0.8 0.4)
 			(end 0.8 -0.4)
 			(stroke
@@ -48268,8 +48258,18 @@
 			(layer "F.Fab")
 			(uuid "5e8cb74a-3a65-4f04-bee2-5b7cc3dffb01")
 		)
+		(fp_line
+			(start -0.8 0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f14d5e2f-897b-4758-924c-14c9a6f01d1e")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "fc8b14e3-b07f-40c7-a0d7-2bf315ba4017")
 			(effects
@@ -48280,7 +48280,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -48290,7 +48290,7 @@
 			(uuid "c016e98d-efd5-4ed6-919f-e6a414db8f60")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 90)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -48325,7 +48325,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -48540,7 +48540,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cdf265a1-d8bc-473a-bdf3-1bc275981844")
-		(at 141.9475 41.81)
+		(at -0.5775 79.88)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R83"
@@ -48549,8 +48549,8 @@
 			(uuid "98ab99e0-8c0b-429d-9643-647a048a6cfd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -48775,7 +48775,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -49000,7 +49000,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -49225,7 +49225,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -49450,7 +49450,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -49801,7 +49801,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -50282,7 +50282,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -50497,7 +50497,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d16bb9d9-0e01-4c2d-850a-e0a144b2fd6f")
-		(at 141.9475 27.45)
+		(at -0.5775 65.52)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R87"
@@ -50506,8 +50506,8 @@
 			(uuid "e45d2d60-caac-4af8-9887-7ed1adb4e051")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -50732,7 +50732,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -50957,7 +50957,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -51308,7 +51308,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -51638,7 +51638,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -51863,7 +51863,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -52088,7 +52088,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -52313,7 +52313,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -52614,7 +52614,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -52743,7 +52743,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -52966,7 +52966,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -53429,7 +53429,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -53654,7 +53654,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -53869,7 +53869,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e2dc0bbf-3076-4b1a-a949-5e469d406d40")
-		(at 150.9075 39.82)
+		(at 8.3825 77.89)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R78"
@@ -53878,8 +53878,8 @@
 			(uuid "1bdf4426-08de-4052-a908-720cf4a21686")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -54104,7 +54104,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -54329,7 +54329,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -54544,7 +54544,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e746045a-d03b-475c-b576-9048e678bcc7")
-		(at 150.9075 27.45)
+		(at 12.0025 55.28)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R82"
@@ -54553,8 +54553,8 @@
 			(uuid "97011243-60f0-45c5-b399-c5a0323386f9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -54779,7 +54779,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -55004,7 +55004,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -55229,7 +55229,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -55528,7 +55528,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -55753,7 +55753,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -55968,7 +55968,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ee1bf589-6142-4f69-bcc8-4913c62dcf7d")
-		(at 141.9475 39.82)
+		(at -0.5775 77.89)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R50"
@@ -55977,8 +55977,8 @@
 			(uuid "67ca394e-22a4-4a32-b9e8-e3664252175f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -56193,24 +56193,24 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "eeecd649-2420-46fb-a3e0-b624c04837f2")
-		(at 150.9075 32.64)
+		(at 36 67 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R22"
-			(at 0 -1.17 0)
+			(at 0 -1.17 90)
 			(layer "F.SilkS")
-			(uuid "5f7bcd56-eaa8-4606-b743-d51d3289e0f5")
+			(uuid "e20eaf68-fb75-4cf3-93ff-12664076b5cb")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.17 0)
+			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "ed4a8e84-7651-4738-ac3c-43625a33f243")
+			(uuid "87d9569e-e566-4765-b109-ad5ada419e9a")
 			(effects
 				(font
 					(size 1 1)
@@ -56219,10 +56219,10 @@
 			)
 		)
 		(property "Datasheet" "-55℃~+155℃ 4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d7050c7c-de55-452f-ab00-e819bf66de0b")
+			(uuid "9dd94115-5642-4bd7-a5d7-147ad8f44a41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56231,10 +56231,10 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "418bedb3-a2de-428f-bfe1-c555a871c4ae")
+			(uuid "9ab0e76b-67ee-4b88-ac5d-aa19b4006610")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56243,7 +56243,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -56256,7 +56256,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -56274,16 +56274,6 @@
 		(sheetfile "BTNkicad_sch.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5dcc7225-2179-42f0-b033-e8a7820abd36")
-		)
-		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
 			(stroke
@@ -56294,14 +56284,14 @@
 			(uuid "c3989cca-6529-4425-87af-86043822e4e1")
 		)
 		(fp_line
-			(start -0.93 -0.47)
-			(end 0.93 -0.47)
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "1b4e6894-4ea9-40b4-8744-f106bfdc1297")
+			(layer "F.SilkS")
+			(uuid "5dcc7225-2179-42f0-b033-e8a7820abd36")
 		)
 		(fp_line
 			(start -0.93 0.47)
@@ -56314,16 +56304,6 @@
 			(uuid "48790c74-8c29-4cda-9b37-cafa12f59181")
 		)
 		(fp_line
-			(start 0.93 -0.47)
-			(end 0.93 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "674162a9-f757-4add-a94e-0cd0565939f0")
-		)
-		(fp_line
 			(start 0.93 0.47)
 			(end -0.93 0.47)
 			(stroke
@@ -56334,14 +56314,24 @@
 			(uuid "b8fda6bf-b0af-4757-a658-f0e1550c4a3c")
 		)
 		(fp_line
-			(start -0.525 -0.27)
-			(end 0.525 -0.27)
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "df55917f-18be-4be3-a54b-aa07e68bdb0e")
+			(layer "F.CrtYd")
+			(uuid "1b4e6894-4ea9-40b4-8744-f106bfdc1297")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "674162a9-f757-4add-a94e-0cd0565939f0")
 		)
 		(fp_line
 			(start -0.525 0.27)
@@ -56354,16 +56344,6 @@
 			(uuid "2e2aec9a-dfb7-4b0b-a412-c266c5eb5da7")
 		)
 		(fp_line
-			(start 0.525 -0.27)
-			(end 0.525 0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "963a7899-57e2-402f-a02d-690193158cf0")
-		)
-		(fp_line
 			(start 0.525 0.27)
 			(end -0.525 0.27)
 			(stroke
@@ -56373,8 +56353,28 @@
 			(layer "F.Fab")
 			(uuid "700d40da-ada8-46d9-b34f-102779750070")
 		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "df55917f-18be-4be3-a54b-aa07e68bdb0e")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "963a7899-57e2-402f-a02d-690193158cf0")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "5941d30f-a318-45c3-b087-04f21d7aa0e6")
 			(effects
@@ -56385,7 +56385,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0)
+			(at -0.51 0 270)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -56394,7 +56394,7 @@
 			(uuid "e14112ff-78b2-43d6-a54a-ad76093d8edd")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0)
+			(at 0.51 0 270)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -56418,7 +56418,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f07482d1-5c5b-424f-ab2f-6a0371421d5f")
-		(at 138.4875 28.35)
+		(at -4.0375 66.42)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D31"
@@ -56427,8 +56427,8 @@
 			(uuid "15ae5c7e-80d9-47c6-bbcf-6ed70d05d5f2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -56688,7 +56688,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -56903,7 +56903,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f17983e4-806b-444c-a0d2-23f972bd7467")
-		(at 147.4475 28.35)
+		(at 8.5425 56.18)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D27"
@@ -56912,8 +56912,8 @@
 			(uuid "06b2ca7a-f04c-4fe7-b9d1-9ee729b5dbf1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.6 0.6)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -57171,7 +57171,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -57409,7 +57409,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -57826,7 +57826,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -58086,7 +58086,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -58578,7 +58578,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -58805,7 +58805,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -58933,7 +58933,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -59240,7 +59240,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -59591,7 +59591,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -59816,7 +59816,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -60166,7 +60166,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -60474,7 +60474,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -60966,7 +60966,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -61191,7 +61191,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -61621,7 +61621,7 @@
 			(effects
 				(font
 					(size 0.6 0.6)
-					(thickness 0.1)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -64501,6 +64501,12 @@
 			"b8d46e4e-243e-4f82-87f8-00591100f9b5" "c93c2b5c-7ece-4e88-bb43-3e2e7605757e"
 			"cf0cd5df-1cf5-48b4-ad93-ec9519755058" "eeb9494b-8951-401d-95ad-cd089c912bd8"
 			"f439002a-758c-493c-b205-435079192b9d" "ff5f7bdc-b304-46d3-b832-688aeb69a652"
+		)
+	)
+	(group ""
+		(uuid "abf1c3b4-d7a8-4edc-931a-0391cef3dc17")
+		(members "29c97dc7-0519-4d8b-8d12-81f16830af65" "7a4cbe02-edc5-48b2-93fd-deb6e394db54"
+			"cb9277c6-c1d3-4d9a-b206-2722bc451f98" "eeecd649-2420-46fb-a3e0-b624c04837f2"
 		)
 	)
 	(group ""
