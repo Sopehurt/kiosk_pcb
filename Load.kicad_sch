@@ -5,6 +5,146 @@
 	(uuid "c10604ed-8677-41f4-a201-b730e61c6bd5")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1007,6 +1147,18 @@
 		(uuid "8e198fd4-083e-48be-a9a1-6285a2951e05")
 	)
 	(junction
+		(at 172.085 103.505)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fefb459-826e-4421-aed8-589d5aed85dc")
+	)
+	(junction
+		(at 172.085 94.615)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "977cdd89-a0b3-413f-9c6b-cabf5fd0a3af")
+	)
+	(junction
 		(at 167.64 103.505)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1033,6 +1185,16 @@
 			(type default)
 		)
 		(uuid "1b3ade8c-b4b2-48e9-9606-030c75659a01")
+	)
+	(wire
+		(pts
+			(xy 172.085 103.505) (xy 176.53 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edfcedf-c37a-4e72-97aa-c05d533f036a")
 	)
 	(wire
 		(pts
@@ -1066,13 +1228,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 94.615) (xy 173.355 94.615)
+			(xy 167.64 94.615) (xy 172.085 94.615)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61818afa-c728-4d9c-a13a-d1fdf21e0d65")
+		(uuid "423de748-573d-4b6f-86d5-82283a94e7c5")
+	)
+	(wire
+		(pts
+			(xy 172.085 101.6) (xy 172.085 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51242760-a7e8-42c8-b08c-f26fb9a1bb75")
 	)
 	(wire
 		(pts
@@ -1156,6 +1328,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.085 94.615) (xy 172.085 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be58d066-3cfc-4e52-a198-8065625da659")
+	)
+	(wire
+		(pts
 			(xy 133.35 86.995) (xy 133.35 91.44)
 		)
 		(stroke
@@ -1203,6 +1385,16 @@
 			(type default)
 		)
 		(uuid "e9f80e29-9c45-4d93-8446-b11b23d77008")
+	)
+	(wire
+		(pts
+			(xy 172.085 94.615) (xy 177.8 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea01c315-af6d-4075-b71a-861af949df11")
 	)
 	(wire
 		(pts
@@ -1258,7 +1450,7 @@
 	)
 	(hierarchical_label "Load${No}"
 		(shape input)
-		(at 173.355 94.615 0)
+		(at 177.8 94.615 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1266,6 +1458,234 @@
 			(justify left)
 		)
 		(uuid "faca5999-6627-47fb-8b12-8f92db6aa5ec")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 144.78 95.885 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ef3b988-7bea-4248-8780-1313282a6d28")
+		(property "Reference" "R1"
+			(at 147.32 95.885 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 144.78 95.885 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 144.78 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-55℃~+155℃ 100mW 3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 144.78 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 144.78 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4211 "
+			(at 144.78 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 144.78 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9ec0d80-fd1c-481e-970e-16f4ea50ef69")
+		)
+		(pin "1"
+			(uuid "0ee2a70a-cae9-490f-a158-3238bbedc300")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0c271627-317b-4a93-9f71-5e5c91d736bd"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/14d5d93e-bce6-49dd-948b-b629e32abd4c"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/587bad33-1d24-4ccb-8351-ab633d5a1fc5"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5973e0c5-4c64-4f7f-805d-5b64c844a54c"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/7ab95cae-ce4f-4ab0-81c7-6a4d892e8f1f"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9c642db8-62d1-4249-801c-ce7625f01657"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/d4d6f4ec-3715-476d-bb49-3a41bea4ec75"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/f491e371-fbc9-4f92-88ec-6d4cbb1d3331"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 172.085 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52007859-7cde-47a3-a2e3-04dc6fafba57")
+		(property "Reference" "C43"
+			(at 174.625 97.79 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 174.625 99.695 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 172.085 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 172.085 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.085 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1523"
+			(at 172.085 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 172.085 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7da0fbb-c28f-4400-aade-b1c5dd073f8a")
+		)
+		(pin "2"
+			(uuid "11da5464-d73d-405e-8571-d122c5f06cd0")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0c271627-317b-4a93-9f71-5e5c91d736bd"
+					(reference "C47")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/14d5d93e-bce6-49dd-948b-b629e32abd4c"
+					(reference "C43")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/587bad33-1d24-4ccb-8351-ab633d5a1fc5"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5973e0c5-4c64-4f7f-805d-5b64c844a54c"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/7ab95cae-ce4f-4ab0-81c7-6a4d892e8f1f"
+					(reference "C50")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9c642db8-62d1-4249-801c-ce7625f01657"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/d4d6f4ec-3715-476d-bb49-3a41bea4ec75"
+					(reference "C49")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/f491e371-fbc9-4f92-88ec-6d4cbb1d3331"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -1826,7 +2246,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.085 103.505 90)
+		(at 176.53 103.505 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1834,7 +2254,7 @@
 		(dnp no)
 		(uuid "cb9d2f93-cbe7-4b19-a0ba-b1e5b5e93ce8")
 		(property "Reference" "#PWR033"
-			(at 178.435 103.505 0)
+			(at 182.88 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +2263,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.165 103.505 90)
+			(at 181.61 103.505 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1851,7 +2271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.085 103.505 0)
+			(at 176.53 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +2280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.085 103.505 0)
+			(at 176.53 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +2289,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.085 103.505 0)
+			(at 176.53 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,119 +2332,6 @@
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/f491e371-fbc9-4f92-88ec-6d4cbb1d3331"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 144.78 95.885 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee6fe22e-cc42-4682-992c-9f7b32a2a15f")
-		(property "Reference" "R1"
-			(at 147.32 95.885 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 144.78 95.885 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 144.78 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-55℃~+155℃ 4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 144.78 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 144.78 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25900"
-			(at 144.78 95.885 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 144.78 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90e782eb-ff23-47a8-8c27-4c2e2d15bf7f")
-		)
-		(pin "1"
-			(uuid "544d43bf-11e9-453d-8654-9737e4f25ada")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0c271627-317b-4a93-9f71-5e5c91d736bd"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/14d5d93e-bce6-49dd-948b-b629e32abd4c"
-					(reference "R1")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/587bad33-1d24-4ccb-8351-ab633d5a1fc5"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5973e0c5-4c64-4f7f-805d-5b64c844a54c"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/7ab95cae-ce4f-4ab0-81c7-6a4d892e8f1f"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9c642db8-62d1-4249-801c-ce7625f01657"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/d4d6f4ec-3715-476d-bb49-3a41bea4ec75"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/f491e371-fbc9-4f92-88ec-6d4cbb1d3331"
-					(reference "R3")
 					(unit 1)
 				)
 			)

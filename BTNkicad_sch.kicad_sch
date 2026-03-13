@@ -1993,119 +1993,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 127 130.175 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2300f483-ccea-467f-b77e-6f79e998b8e5")
-		(property "Reference" "R22"
-			(at 129.54 130.175 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 127 130.175 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-55℃~+155℃ 4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 127 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 127 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25900"
-			(at 127 130.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 127 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "60b9b8b9-8741-4d9f-b89a-93b88ffd8f42")
-		)
-		(pin "1"
-			(uuid "1aba27d5-4013-48be-b11e-f56da920f763")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0b2a77e9-14c2-4b88-bb12-8ec38d6907b4"
-					(reference "R68")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/1f662fc0-700e-4a53-8f25-29d5d6f99524"
-					(reference "R62")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/2eb76603-2d98-476b-9de6-9ee30cbab6b4"
-					(reference "R50")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/3b7d595c-aabc-4f1c-8bfc-e79b452a463e"
-					(reference "R44")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/45534c8c-de3d-430b-987d-7f352e5cf44d"
-					(reference "R56")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5e38aab3-b28b-4dc5-a79b-6c7b0514426e"
-					(reference "R22")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9cd2566d-f984-4948-abf0-8e9cce55fb0f"
-					(reference "R78")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
-					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 142.24 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2234,7 +2121,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "3k"
 			(at 126.365 80.645 90)
 			(effects
 				(font
@@ -2251,7 +2138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-55℃~+155℃ 4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Datasheet" "-55℃~+155℃ 100mW 3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 126.365 80.645 0)
 			(effects
 				(font
@@ -2269,7 +2156,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C4211 "
 			(at 126.365 80.645 90)
 			(effects
 				(font
@@ -3402,13 +3289,13 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 137.16 84.455 270)
+		(at 137.16 84.455 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cdca23b3-24e0-4418-9798-df4b60710f81")
 		(property "Reference" "Q1"
 			(at 137.16 90.805 90)
@@ -3427,7 +3314,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 135.255 89.535 0)
+			(at 139.065 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3325,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 133.35 89.535 0)
+			(at 140.97 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,6 +3495,119 @@
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 130.175 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e05f61e1-7c56-49b7-8fc7-13d30bc465e5")
+		(property "Reference" "R22"
+			(at 129.54 130.175 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 127 130.175 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-55℃~+155℃ 100mW 3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 127 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4211 "
+			(at 127 130.175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 127 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06f76983-db23-4604-a12a-5e6baee71b4e")
+		)
+		(pin "1"
+			(uuid "49dbb28c-87a0-47b3-9294-ceebf7688520")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0b2a77e9-14c2-4b88-bb12-8ec38d6907b4"
+					(reference "R68")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/1f662fc0-700e-4a53-8f25-29d5d6f99524"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/2eb76603-2d98-476b-9de6-9ee30cbab6b4"
+					(reference "R50")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/3b7d595c-aabc-4f1c-8bfc-e79b452a463e"
+					(reference "R44")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/45534c8c-de3d-430b-987d-7f352e5cf44d"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5e38aab3-b28b-4dc5-a79b-6c7b0514426e"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9cd2566d-f984-4948-abf0-8e9cce55fb0f"
+					(reference "R78")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
+					(reference "R74")
 					(unit 1)
 				)
 			)

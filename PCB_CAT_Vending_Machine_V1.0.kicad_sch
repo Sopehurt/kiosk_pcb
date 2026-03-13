@@ -627,9 +627,9 @@
 				(justify left)
 			)
 		)
-		(pin "Water_Level{Trig Echo}" input
+		(pin "Water_Trigger[0..5]" input
 			(at 178.435 106.68 180)
-			(uuid "b8c499d7-9d50-4b53-97cf-dd66ab44e7e8")
+			(uuid "6dd54b9f-2ee1-46e5-a63a-66b845bac611")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,9 +801,19 @@
 				(justify right)
 			)
 		)
-		(pin "Water_Level{Trig Echo}" input
+		(pin "Water_Trigger[0..5]" input
 			(at 168.91 106.68 0)
-			(uuid "419c8aa6-3cf8-408e-8485-51635283850a")
+			(uuid "9e44849b-0451-477f-9aab-16ea1dc5a1b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "QR_Button[0..2]" input
+			(at 168.91 109.22 0)
+			(uuid "46d33db5-974f-4f82-869b-a89a8816e40f")
 			(effects
 				(font
 					(size 1.27 1.27)
