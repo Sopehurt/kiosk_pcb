@@ -111,7 +111,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 104.14) (xy 178.435 104.14)
+			(xy 168.91 105.41) (xy 178.435 105.41)
 		)
 		(stroke
 			(width 0)
@@ -121,13 +121,23 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 106.68) (xy 178.435 106.68)
+			(xy 168.91 107.95) (xy 178.435 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4e844173-0ab9-41f1-a3cf-734b450ce78d")
+	)
+	(bus
+		(pts
+			(xy 168.91 110.49) (xy 178.435 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7cad04-5495-4e61-8872-06734fb9956e")
 	)
 	(wire
 		(pts
@@ -151,7 +161,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 101.6) (xy 178.435 101.6)
+			(xy 168.91 102.87) (xy 178.435 102.87)
 		)
 		(stroke
 			(width 0)
@@ -168,6 +178,16 @@
 			(type default)
 		)
 		(uuid "b532220c-fe6e-42d6-b784-e4095b3e4813")
+	)
+	(wire
+		(pts
+			(xy 168.91 100.33) (xy 178.435 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fe7e10-cdcf-4ec3-b990-44d11887b993")
 	)
 	(bus
 		(pts
@@ -545,7 +565,7 @@
 	)
 	(sheet
 		(at 178.435 89.535)
-		(size 26.035 21.59)
+		(size 26.035 23.495)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -569,7 +589,7 @@
 			)
 		)
 		(property "Sheetfile" "Peripheral.kicad_sch"
-			(at 178.435 111.7096 0)
+			(at 178.435 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,7 +618,7 @@
 			)
 		)
 		(pin "QR{TX,RX}" input
-			(at 178.435 101.6 180)
+			(at 178.435 102.87 180)
 			(uuid "551f33d2-6c61-4914-b9ca-d047449a9ddd")
 			(effects
 				(font
@@ -608,7 +628,7 @@
 			)
 		)
 		(pin "RASPI{TX,RX}" input
-			(at 178.435 104.14 180)
+			(at 178.435 105.41 180)
 			(uuid "a7b9e59e-85d4-4ea7-9fc7-e646e91cf867")
 			(effects
 				(font
@@ -628,8 +648,28 @@
 			)
 		)
 		(pin "Water_Trigger[0..5]" input
-			(at 178.435 106.68 180)
+			(at 178.435 107.95 180)
 			(uuid "6dd54b9f-2ee1-46e5-a63a-66b845bac611")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QR_Button[0..2]" input
+			(at 178.435 110.49 180)
+			(uuid "e40f263e-7705-44fd-ae2b-2120e1a89844")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Door" input
+			(at 178.435 100.33 180)
+			(uuid "8cd217e4-ff0c-419b-a9b2-16c512b4023a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,7 +686,7 @@
 		)
 	)
 	(sheet
-		(at 89.535 93.345)
+		(at 89.535 95.25)
 		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -662,7 +702,7 @@
 		)
 		(uuid "a76cc5d0-f19b-45e7-b348-68021cdb7480")
 		(property "Sheetname" "Power_supply"
-			(at 89.535 92.6334 0)
+			(at 89.535 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,7 +711,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_supply.kicad_sch"
-			(at 89.535 111.7096 0)
+			(at 89.535 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,7 +729,7 @@
 	)
 	(sheet
 		(at 123.825 70.485)
-		(size 45.085 40.64)
+		(size 45.085 42.545)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -713,7 +753,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 123.825 111.7096 0)
+			(at 123.825 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +812,7 @@
 			)
 		)
 		(pin "QR{TX,RX}" input
-			(at 168.91 101.6 0)
+			(at 168.91 102.87 0)
 			(uuid "7a78e1b3-ba21-4d35-91d2-a23b32f8427a")
 			(effects
 				(font
@@ -782,7 +822,7 @@
 			)
 		)
 		(pin "RASPI{TX,RX}" input
-			(at 168.91 104.14 0)
+			(at 168.91 105.41 0)
 			(uuid "e5df73fa-6012-45c0-b706-53d73c144b03")
 			(effects
 				(font
@@ -802,7 +842,7 @@
 			)
 		)
 		(pin "Water_Trigger[0..5]" input
-			(at 168.91 106.68 0)
+			(at 168.91 107.95 0)
 			(uuid "9e44849b-0451-477f-9aab-16ea1dc5a1b9")
 			(effects
 				(font
@@ -812,8 +852,18 @@
 			)
 		)
 		(pin "QR_Button[0..2]" input
-			(at 168.91 109.22 0)
+			(at 168.91 110.49 0)
 			(uuid "46d33db5-974f-4f82-869b-a89a8816e40f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Door" input
+			(at 168.91 100.33 0)
+			(uuid "8c24398b-1f7a-4f00-9f4f-7c8f0e75aa01")
 			(effects
 				(font
 					(size 1.27 1.27)

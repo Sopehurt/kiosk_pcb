@@ -1,4 +1,4 @@
-26419440011978331
+26424760422110958
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95998,6 +95998,13 @@ LEM Hall Effect Voltage transducer
 5
 5
 Sharing_Connector_Footprint
+CONN-SMD_1.25-4PWB
+
+
+0
+6
+6
+Sharing_Connector_Footprint
 CONN-TH_2P-P5.00_XY2500V-D-5.00-2P
 
 
@@ -96011,6 +96018,13 @@ CONN-TH_CH5.08-2A
 0
 2
 2
+Sharing_Connector_Footprint
+Untitled
+
+
+0
+0
+0
 Sharing_Footprint
 3.81_2p_plug
 1851902
@@ -96517,6 +96531,13 @@ XFMR-SMD_24P-L15.6-W8.5-P1.27-LS9.5-BL
 24
 Sharing_IC_Footprint
 430182043816
+
+
+0
+4
+4
+Sharing_IC_Footprint
+KEY-SMD_4P-L12.0-W12.0-P5.00-LS15.1
 
 
 0
