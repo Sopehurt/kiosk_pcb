@@ -91,7 +91,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 76.835) (xy 178.435 76.835)
+			(xy 168.91 75.565) (xy 178.435 75.565)
 		)
 		(stroke
 			(width 0)
@@ -99,9 +99,19 @@
 		)
 		(uuid "2bd52fc4-c72a-4617-bb81-8ea3492a50d2")
 	)
+	(wire
+		(pts
+			(xy 168.91 94.615) (xy 178.435 94.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0844d2-e41d-45d9-b488-5d21e758d7e0")
+	)
 	(bus
 		(pts
-			(xy 168.91 74.93) (xy 178.435 74.93)
+			(xy 168.91 73.66) (xy 178.435 73.66)
 		)
 		(stroke
 			(width 0)
@@ -151,13 +161,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 95.885) (xy 178.435 95.885)
+			(xy 168.91 92.71) (xy 178.435 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89a96ea4-bd0f-4bdc-a4af-6b417b6f4a71")
+		(uuid "816f3c92-88a5-4c1b-b11f-b225954c0b51")
 	)
 	(bus
 		(pts
@@ -171,7 +181,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 93.98) (xy 178.435 93.98)
+			(xy 168.91 89.535) (xy 178.435 89.535)
 		)
 		(stroke
 			(width 0)
@@ -191,7 +201,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 78.74) (xy 178.435 78.74)
+			(xy 168.91 77.47) (xy 178.435 77.47)
 		)
 		(stroke
 			(width 0)
@@ -493,7 +503,7 @@
 	)
 	(sheet
 		(at 178.435 70.485)
-		(size 26.035 13.335)
+		(size 26.035 10.795)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -517,7 +527,7 @@
 			)
 		)
 		(property "Sheetfile" "Connector.kicad_sch"
-			(at 178.435 84.4046 0)
+			(at 178.435 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +536,7 @@
 			)
 		)
 		(pin "BTN[0..7]" input
-			(at 178.435 74.93 180)
+			(at 178.435 73.66 180)
 			(uuid "ce3b6094-7223-476f-8afa-a32f3e7afd51")
 			(effects
 				(font
@@ -536,7 +546,7 @@
 			)
 		)
 		(pin "LED[0..7]" output
-			(at 178.435 76.835 180)
+			(at 178.435 75.565 180)
 			(uuid "f39be41a-a236-4557-a64c-5bf87c17355b")
 			(effects
 				(font
@@ -546,7 +556,7 @@
 			)
 		)
 		(pin "LD[0..7]" output
-			(at 178.435 78.74 180)
+			(at 178.435 77.47 180)
 			(uuid "d9711d5a-d520-4c80-ba2b-e8395fd0fc30")
 			(effects
 				(font
@@ -564,8 +574,8 @@
 		)
 	)
 	(sheet
-		(at 178.435 89.535)
-		(size 26.035 23.495)
+		(at 178.435 86.995)
+		(size 26.035 26.035)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -580,7 +590,7 @@
 		)
 		(uuid "9f2adda4-bc0e-4374-9492-404bc1f22ca7")
 		(property "Sheetname" "Peripheral"
-			(at 178.435 88.8234 0)
+			(at 178.435 86.2834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,16 +610,6 @@
 		(pin "COIN" input
 			(at 178.435 97.79 180)
 			(uuid "b26f53dc-72bd-45b2-b913-f87fef771fc3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Pulse" input
-			(at 178.435 95.885 180)
-			(uuid "09b499b5-510f-4c4d-a1aa-00baab9e850e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,7 +638,7 @@
 			)
 		)
 		(pin "Screen{DIO,CLK}" input
-			(at 178.435 93.98 180)
+			(at 178.435 89.535 180)
 			(uuid "d4067baa-48ef-4db0-b813-6534ffe6c4cf")
 			(effects
 				(font
@@ -670,6 +670,26 @@
 		(pin "Door" input
 			(at 178.435 100.33 180)
 			(uuid "8cd217e4-ff0c-419b-a9b2-16c512b4023a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Bank_RX" input
+			(at 178.435 94.615 180)
+			(uuid "857f4b72-55b1-42b1-9a12-571445999084")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pulse{slash}Bank_TX" input
+			(at 178.435 92.71 180)
+			(uuid "8865be40-35b4-473e-a34a-15b7ca57dd01")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,7 +782,7 @@
 			)
 		)
 		(pin "BTN[0..7]" input
-			(at 168.91 74.93 0)
+			(at 168.91 73.66 0)
 			(uuid "f94a21e9-d8b1-4fb1-b6f1-3f25501c0de8")
 			(effects
 				(font
@@ -772,7 +792,7 @@
 			)
 		)
 		(pin "LED[0..7]" input
-			(at 168.91 76.835 0)
+			(at 168.91 75.565 0)
 			(uuid "67b43bec-88e3-470f-8d65-3facc2559248")
 			(effects
 				(font
@@ -791,18 +811,8 @@
 				(justify right)
 			)
 		)
-		(pin "Pulse" input
-			(at 168.91 95.885 0)
-			(uuid "187dbfe1-cca6-424b-8a5f-a79fe80fe68b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "LD[0..7]" input
-			(at 168.91 78.74 0)
+			(at 168.91 77.47 0)
 			(uuid "4fb5591e-593c-40fb-8afb-f47e4234c08e")
 			(effects
 				(font
@@ -832,7 +842,7 @@
 			)
 		)
 		(pin "Screen{DIO,CLK}" input
-			(at 168.91 93.98 0)
+			(at 168.91 89.535 0)
 			(uuid "26390a29-1ff5-4322-9d9d-7f4249fbd9c6")
 			(effects
 				(font
@@ -864,6 +874,26 @@
 		(pin "Door" input
 			(at 168.91 100.33 0)
 			(uuid "8c24398b-1f7a-4f00-9f4f-7c8f0e75aa01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Bank_RX" input
+			(at 168.91 94.615 0)
+			(uuid "bfec6497-b422-4357-a7a8-7d0e81c0d57d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pulse{slash}Bank_TX" input
+			(at 168.91 92.71 0)
+			(uuid "2b0b45c8-6f69-4e0e-8dd4-d57d6dbd68b7")
 			(effects
 				(font
 					(size 1.27 1.27)

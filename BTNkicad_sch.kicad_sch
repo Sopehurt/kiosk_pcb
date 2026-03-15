@@ -1304,22 +1304,16 @@
 		(uuid "3f30b926-83f4-450a-b53f-99cafef02f4d")
 	)
 	(junction
-		(at 150.495 86.995)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5407fe9e-22ab-4198-b8d6-38196515a277")
-	)
-	(junction
-		(at 146.05 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "663142ad-d703-4eae-a540-0ec0122d4ce2")
-	)
-	(junction
 		(at 124.46 103.505)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74e07b9f-3145-4561-8305-8809e5f0cf6c")
+	)
+	(junction
+		(at 150.495 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9d87158-4d20-4399-8af7-ead987d03e06")
 	)
 	(junction
 		(at 126.365 86.995)
@@ -1328,28 +1322,22 @@
 		(uuid "ce5dfc9e-f055-4bbd-b09d-484d970611f3")
 	)
 	(junction
+		(at 150.495 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4ff50d4-b70d-41ed-ab74-2c9d2ff6828f")
+	)
+	(junction
 		(at 120.015 114.935)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4e2eee8-26d3-495e-bbad-032565004714")
 	)
 	(junction
-		(at 150.495 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e52ccba0-6280-4179-a648-5b0eb9f750d4")
-	)
-	(junction
 		(at 163.83 104.775)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e87cea9c-2bd6-478f-b5c4-a80edcc5d717")
-	)
-	(junction
-		(at 146.05 86.995)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f548d5de-1f00-4c74-9ddb-4049fb4674df")
 	)
 	(wire
 		(pts
@@ -1363,33 +1351,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 77.47) (xy 146.05 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "173594e1-d4ee-4d00-89f1-83d7a261ec32")
-	)
-	(wire
-		(pts
 			(xy 150.495 85.09) (xy 150.495 86.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b772061-d3f9-4f9a-b9c1-0bba5a8c7d7c")
-	)
-	(wire
-		(pts
-			(xy 146.05 85.09) (xy 146.05 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cc05bff-492a-402d-959d-e73bcacde5c8")
+		(uuid "169f210e-d705-4f5a-a86d-819c5b03cc6f")
 	)
 	(wire
 		(pts
@@ -1413,7 +1381,7 @@
 	)
 	(wire
 		(pts
-			(xy 150.495 86.995) (xy 156.21 86.995)
+			(xy 142.24 86.995) (xy 150.495 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1453,6 +1421,16 @@
 	)
 	(wire
 		(pts
+			(xy 150.495 67.945) (xy 150.495 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ed5eb7-2897-4071-acaa-50a95905592c")
+	)
+	(wire
+		(pts
 			(xy 165.1 106.045) (xy 173.99 106.045)
 		)
 		(stroke
@@ -1460,16 +1438,6 @@
 			(type default)
 		)
 		(uuid "514159ee-a27c-426b-bdd9-84373e1184ed")
-	)
-	(wire
-		(pts
-			(xy 146.05 86.995) (xy 150.495 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "620e80c7-ad7c-4308-8d00-58f5b4f0adff")
 	)
 	(wire
 		(pts
@@ -1483,7 +1451,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 77.47) (xy 150.495 77.47)
+			(xy 144.78 77.47) (xy 150.495 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1503,27 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 77.47) (xy 146.05 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72349cef-e750-4cac-8e28-59698ef6ddbe")
-	)
-	(wire
-		(pts
-			(xy 150.495 77.47) (xy 158.115 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75b8f972-754e-4501-90c3-06bdd4c0adc5")
-	)
-	(wire
-		(pts
-			(xy 127 125.73) (xy 124.46 125.73)
+			(xy 128.905 125.73) (xy 124.46 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1543,16 +1491,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 132.715) (xy 127 135.255)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f49025-9c94-4505-b051-8a0b2b60563c")
-	)
-	(wire
-		(pts
 			(xy 126.365 78.105) (xy 126.365 76.2)
 		)
 		(stroke
@@ -1563,13 +1501,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 127.635) (xy 127 125.73)
+			(xy 133.985 125.73) (xy 137.795 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bb4dbf6-ce5d-4836-ab92-1c5e4263721d")
+		(uuid "9b38e5bc-94fd-448b-a3b2-8f4b594c2228")
 	)
 	(wire
 		(pts
@@ -1590,6 +1528,16 @@
 			(type default)
 		)
 		(uuid "a40f7bf4-011e-4342-a00c-0feff3210d0c")
+	)
+	(wire
+		(pts
+			(xy 150.495 77.47) (xy 158.115 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5510fb1-0c58-46b5-ba68-393ed9af40bb")
 	)
 	(wire
 		(pts
@@ -1653,13 +1601,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 86.995) (xy 146.05 86.995)
+			(xy 150.495 77.47) (xy 150.495 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c01b6283-b6db-4ea3-b8e2-64ca38d7116a")
+		(uuid "c858ff05-6e0f-4464-ad84-9fd29c66e6e9")
 	)
 	(wire
 		(pts
@@ -1703,6 +1651,16 @@
 	)
 	(wire
 		(pts
+			(xy 150.495 86.995) (xy 156.21 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd923a7a-3f39-4b1e-a8a5-1bc2ccbaf810")
+	)
+	(wire
+		(pts
 			(xy 165.1 114.935) (xy 174.625 114.935)
 		)
 		(stroke
@@ -1720,6 +1678,16 @@
 			(type default)
 		)
 		(uuid "d4300021-5cb9-4151-aa08-ceac7fd573ba")
+	)
+	(wire
+		(pts
+			(xy 150.495 75.565) (xy 150.495 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81b7f51-bda1-441e-83c2-66326e227ca4")
 	)
 	(wire
 		(pts
@@ -1750,16 +1718,6 @@
 			(type default)
 		)
 		(uuid "e7fd4388-d7d8-4d8f-832b-aa6e1923f77e")
-	)
-	(wire
-		(pts
-			(xy 150.495 77.47) (xy 150.495 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e867997b-6826-4678-9a33-9c1e9d79c9c7")
 	)
 	(wire
 		(pts
@@ -1930,7 +1888,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C15195"
+		(property "LCSC" "C15195"
 			(at 120.015 109.22 0)
 			(effects
 				(font
@@ -2106,23 +2064,23 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 126.365 80.645 180)
+		(at 131.445 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2680606c-7d7a-4e7b-9741-6020fb8a7fae")
-		(property "Reference" "R80"
-			(at 128.905 80.645 0)
+		(uuid "278d341d-07bd-4d99-a98c-0b5be1a824a4")
+		(property "Reference" "R22"
+			(at 131.445 123.825 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Value" "3k"
-			(at 126.365 80.645 90)
+		(property "Value" "1k"
+			(at 131.445 125.73 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2130,7 +2088,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 126.365 80.645 0)
+			(at 131.445 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,8 +2096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-55℃~+155℃ 100mW 3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 126.365 80.645 0)
+		(property "Datasheet" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 131.445 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2106,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 126.365 80.645 0)
+			(at 131.445 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,8 +2114,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4211 "
-			(at 126.365 80.645 90)
+		(property "LCSC" "C11702 "
+			(at 131.445 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2124,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 126.365 80.645 0)
+			(at 131.445 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,43 +2133,43 @@
 			)
 		)
 		(pin "2"
-			(uuid "839954fd-3215-4581-bb31-76b107f5854f")
+			(uuid "8f5f4694-14df-4508-b0e2-2bd33aa21cb0")
 		)
 		(pin "1"
-			(uuid "b2e870d9-f035-4b44-8cca-1285e77cec1c")
+			(uuid "1bc34958-bd83-439b-a33b-e189977c59de")
 		)
 		(instances
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0b2a77e9-14c2-4b88-bb12-8ec38d6907b4"
-					(reference "R87")
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/1f662fc0-700e-4a53-8f25-29d5d6f99524"
-					(reference "R86")
+					(reference "R62")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/2eb76603-2d98-476b-9de6-9ee30cbab6b4"
-					(reference "R83")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/3b7d595c-aabc-4f1c-8bfc-e79b452a463e"
-					(reference "R82")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/45534c8c-de3d-430b-987d-7f352e5cf44d"
-					(reference "R85")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5e38aab3-b28b-4dc5-a79b-6c7b0514426e"
-					(reference "R80")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9cd2566d-f984-4948-abf0-8e9cce55fb0f"
-					(reference "R89")
+					(reference "R78")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
-					(reference "R88")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -2305,6 +2263,327 @@
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 150.495 73.025 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3073dd95-eadd-4205-b435-89fdc65baafc")
+		(property "Reference" "R17"
+			(at 153.67 73.025 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 150.495 73.025 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 150.495 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 150.495 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 150.495 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 150.495 73.025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 150.495 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c060a9fc-dfde-4615-bd4b-310e5e320b18")
+		)
+		(pin "1"
+			(uuid "efaa9820-dae3-4e5e-87ec-5ef465d0b487")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0b2a77e9-14c2-4b88-bb12-8ec38d6907b4"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/1f662fc0-700e-4a53-8f25-29d5d6f99524"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/2eb76603-2d98-476b-9de6-9ee30cbab6b4"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/3b7d595c-aabc-4f1c-8bfc-e79b452a463e"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/45534c8c-de3d-430b-987d-7f352e5cf44d"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5e38aab3-b28b-4dc5-a79b-6c7b0514426e"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9cd2566d-f984-4948-abf0-8e9cce55fb0f"
+					(reference "R73")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 150.495 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3988864e-228e-4ba4-81a9-8906daa0c6de")
+		(property "Reference" "#PWR0187"
+			(at 150.495 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 150.495 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 150.495 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 150.495 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 150.495 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e44cc006-70d5-42bd-a37e-a4af4dda6e82")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0b2a77e9-14c2-4b88-bb12-8ec38d6907b4"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/1f662fc0-700e-4a53-8f25-29d5d6f99524"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/2eb76603-2d98-476b-9de6-9ee30cbab6b4"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/3b7d595c-aabc-4f1c-8bfc-e79b452a463e"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/45534c8c-de3d-430b-987d-7f352e5cf44d"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5e38aab3-b28b-4dc5-a79b-6c7b0514426e"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9cd2566d-f984-4948-abf0-8e9cce55fb0f"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 150.495 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e0ac273-2919-4019-aae7-da9b8c8dda24")
+		(property "Reference" "C18"
+			(at 148.59 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 148.59 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 150.495 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "10nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 150.495 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 150.495 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 150.495 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 150.495 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acbb74e7-597f-4204-83d2-fbdc4833a78b")
+		)
+		(pin "2"
+			(uuid "fd289b57-33e9-47ca-90e6-395825ab7ef8")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0b2a77e9-14c2-4b88-bb12-8ec38d6907b4"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/1f662fc0-700e-4a53-8f25-29d5d6f99524"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/2eb76603-2d98-476b-9de6-9ee30cbab6b4"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/3b7d595c-aabc-4f1c-8bfc-e79b452a463e"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/45534c8c-de3d-430b-987d-7f352e5cf44d"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5e38aab3-b28b-4dc5-a79b-6c7b0514426e"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9cd2566d-f984-4948-abf0-8e9cce55fb0f"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -2568,7 +2847,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C25879"
+		(property "LCSC" "C25879"
 			(at 133.35 106.68 90)
 			(effects
 				(font
@@ -2630,43 +2909,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 150.495 82.55 0)
+		(lib_id "Device:R_Small")
+		(at 126.365 80.645 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "61b0a395-5344-4a5b-829d-448e337a291e")
-		(property "Reference" "C18"
-			(at 153.035 81.28 0)
+		(uuid "75fbcfec-2e35-4c9b-8b10-c70bf020988e")
+		(property "Reference" "R29"
+			(at 128.905 80.645 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1nF"
-			(at 153.035 83.185 0)
+		(property "Value" "1k"
+			(at 126.365 80.645 90)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 150.495 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "1nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 150.495 82.55 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 126.365 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,8 +2942,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 150.495 82.55 0)
+		(property "Datasheet" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 126.365 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,8 +2951,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1523"
-			(at 150.495 82.55 0)
+		(property "Description" "Resistor, small symbol"
+			(at 126.365 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702 "
+			(at 126.365 80.645 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2970,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 150.495 82.55 0)
+			(at 126.365 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,44 +2978,44 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "83a0cd74-0059-4349-873c-384ce025b816")
-		)
 		(pin "2"
-			(uuid "57bd4fed-7583-4cef-a270-af452b5e224e")
+			(uuid "013e53cc-b406-40d3-8e09-268394df3396")
+		)
+		(pin "1"
+			(uuid "d4fa4269-c383-439e-b3dc-c72e074f1352")
 		)
 		(instances
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0b2a77e9-14c2-4b88-bb12-8ec38d6907b4"
-					(reference "C28")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/1f662fc0-700e-4a53-8f25-29d5d6f99524"
-					(reference "C26")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/2eb76603-2d98-476b-9de6-9ee30cbab6b4"
-					(reference "C22")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/3b7d595c-aabc-4f1c-8bfc-e79b452a463e"
-					(reference "C20")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/45534c8c-de3d-430b-987d-7f352e5cf44d"
-					(reference "C24")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5e38aab3-b28b-4dc5-a79b-6c7b0514426e"
-					(reference "C18")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9cd2566d-f984-4948-abf0-8e9cce55fb0f"
-					(reference "C32")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
-					(reference "C30")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -2746,7 +3023,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 135.255 0)
+		(at 137.795 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2754,7 +3031,7 @@
 		(dnp no)
 		(uuid "7b7998b3-3c16-4b79-98fa-60c623cfd1c4")
 		(property "Reference" "#PWR082"
-			(at 127 141.605 0)
+			(at 144.145 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +3040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 139.065 0)
+			(at 142.875 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +3048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 135.255 0)
+			(at 137.795 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +3057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 135.255 0)
+			(at 137.795 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +3066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 135.255 0)
+			(at 137.795 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,119 +3778,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 127 130.175 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e05f61e1-7c56-49b7-8fc7-13d30bc465e5")
-		(property "Reference" "R22"
-			(at 129.54 130.175 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 127 130.175 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-55℃~+155℃ 100mW 3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 127 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 127 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211 "
-			(at 127 130.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 127 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "06f76983-db23-4604-a12a-5e6baee71b4e")
-		)
-		(pin "1"
-			(uuid "49dbb28c-87a0-47b3-9294-ceebf7688520")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0b2a77e9-14c2-4b88-bb12-8ec38d6907b4"
-					(reference "R68")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/1f662fc0-700e-4a53-8f25-29d5d6f99524"
-					(reference "R62")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/2eb76603-2d98-476b-9de6-9ee30cbab6b4"
-					(reference "R50")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/3b7d595c-aabc-4f1c-8bfc-e79b452a463e"
-					(reference "R44")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/45534c8c-de3d-430b-987d-7f352e5cf44d"
-					(reference "R56")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5e38aab3-b28b-4dc5-a79b-6c7b0514426e"
-					(reference "R22")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9cd2566d-f984-4948-abf0-8e9cce55fb0f"
-					(reference "R78")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
-					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 156.21 86.995 90)
 		(unit 1)
@@ -3701,119 +3865,6 @@
 				)
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 146.05 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f309c0aa-c3f1-4289-96eb-44a0aefaed9f")
-		(property "Reference" "R17"
-			(at 143.51 82.55 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 146.05 82.55 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 146.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 146.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 146.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 146.05 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 146.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9db28a6-46cc-43a2-8622-99074b08d492")
-		)
-		(pin "1"
-			(uuid "e9662c87-a255-4a9e-a25c-b9a85ad6a953")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/0b2a77e9-14c2-4b88-bb12-8ec38d6907b4"
-					(reference "R61")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/1f662fc0-700e-4a53-8f25-29d5d6f99524"
-					(reference "R55")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/2eb76603-2d98-476b-9de6-9ee30cbab6b4"
-					(reference "R27")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/3b7d595c-aabc-4f1c-8bfc-e79b452a463e"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/45534c8c-de3d-430b-987d-7f352e5cf44d"
-					(reference "R49")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/5e38aab3-b28b-4dc5-a79b-6c7b0514426e"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/9cd2566d-f984-4948-abf0-8e9cce55fb0f"
-					(reference "R73")
-					(unit 1)
-				)
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88/fdc5cd37-88e3-49d0-a95c-c565d851aa04"
-					(reference "R67")
 					(unit 1)
 				)
 			)

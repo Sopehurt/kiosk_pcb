@@ -1945,16 +1945,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 114.3 0)
-		(mirror y)
+		(at 40.64 137.795 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "062a2fc5-bfcb-452f-94dc-accc4cd96517")
-		(property "Reference" "J6"
-			(at 38.1 114.2999 0)
+		(uuid "01aee189-15e9-4947-80e8-b471dd95da0a")
+		(property "Reference" "J7"
+			(at 38.1 137.7951 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,8 +1961,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Button_4"
-			(at 38.1 116.8399 0)
+		(property "Value" "Connector 4P"
+			(at 38.1 135.2551 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1971,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 114.3 0)
+			(at 40.64 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1980,7 @@
 			)
 		)
 		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 114.3 0)
+			(at 40.64 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1989,7 @@
 			)
 		)
 		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 114.3 0)
+			(at 40.64 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,8 +1997,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C7429634"
-			(at 40.64 114.3 0)
+		(property "LCSC" "C7429634"
+			(at 40.64 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,31 +2006,116 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 40.64 114.3 0)
+		(property "Name" "BTN5"
+			(at 35.56 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
-			(uuid "fc01f430-a546-4d9c-8c4f-5e7c3616436a")
+			(uuid "4ff559bc-b575-4b20-816c-950c6f71d848")
 		)
 		(pin "4"
-			(uuid "5b978983-2207-4317-81fb-d4330db34bb7")
+			(uuid "98cfb692-307c-4a4b-84b4-ea447e4b30d0")
 		)
 		(pin "2"
-			(uuid "0c41041b-6a7a-4fd7-acdc-88444512fbec")
+			(uuid "9856bc94-4d4b-4817-8fb2-f90e493b0ed1")
 		)
 		(pin "1"
-			(uuid "d23a02da-3a26-4c32-a3d0-3919bb118194")
+			(uuid "b70d2ff6-587f-4647-a6d3-5c91eedc3c31")
 		)
 		(instances
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J6")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 215.265 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0348720e-39d6-4be2-b45d-2025eb1be12c")
+		(property "Reference" "J14"
+			(at 212.725 33.0201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load"
+			(at 212.725 30.4801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 215.265 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 215.265 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 215.265 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 215.265 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "LD4"
+			(at 210.185 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5d59ac45-36bf-45b5-84e2-20af2b51c130")
+		)
+		(pin "1"
+			(uuid "664c4675-1f0c-485c-8455-b6e9ff1532e1")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2098,6 +2182,98 @@
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "132e9e23-c137-4385-a6d8-15bdb9b5835a")
+		(property "Reference" "J6"
+			(at 38.1 116.8401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector 4P"
+			(at 38.1 114.3001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7429634"
+			(at 40.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "BTN4"
+			(at 35.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9a2d11d5-27f2-4ccb-aa70-29438aa6f233")
+		)
+		(pin "4"
+			(uuid "b78d76d3-2c03-44dc-b8f3-a70b86fe3eb0")
+		)
+		(pin "2"
+			(uuid "137c67d2-c8e1-4905-b504-abb9582c6577")
+		)
+		(pin "1"
+			(uuid "c04dc42f-f53f-4837-bd17-fae7fe9b7bfd")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2236,6 +2412,178 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 215.265 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dde2898-d598-49ba-bd2c-015614d3d155")
+		(property "Reference" "J16"
+			(at 212.725 74.9301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load"
+			(at 212.725 72.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 215.265 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 215.265 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 215.265 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 215.265 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "LD6"
+			(at 210.185 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2714ee03-6807-41a7-9f47-938796048f18")
+		)
+		(pin "1"
+			(uuid "ef6395f8-2f93-4f64-be8d-5c6b475f0ee4")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 146.685 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35e2cdbc-5bc7-4619-a956-58e02b3d137c")
+		(property "Reference" "J12"
+			(at 144.145 74.9301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load"
+			(at 144.145 72.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 146.685 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 146.685 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 146.685 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 146.685 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "LD2"
+			(at 141.605 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "51986f8e-5783-4426-9ae7-635382fe3de9")
+		)
+		(pin "1"
+			(uuid "a28b3ba9-9ccd-41cc-a9c1-8d35c9ca4ba4")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 46.355 27.94 270)
 		(unit 1)
@@ -2303,8 +2651,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 146.685 30.48 0)
-		(mirror y)
+		(at 146.685 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2312,7 +2659,7 @@
 		(dnp no)
 		(uuid "378f6658-7c7d-407d-9216-34468e7d7b93")
 		(property "Reference" "J10"
-			(at 144.145 30.4799 0)
+			(at 144.145 33.0201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,8 +2667,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Load_0"
-			(at 144.145 33.0199 0)
+		(property "Value" "Load"
+			(at 144.145 30.4801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,7 +2677,7 @@
 			)
 		)
 		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
-			(at 146.685 30.48 0)
+			(at 146.685 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2686,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
-			(at 146.685 30.48 0)
+			(at 146.685 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2695,7 @@
 			)
 		)
 		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
-			(at 146.685 30.48 0)
+			(at 146.685 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2704,7 @@
 			)
 		)
 		(property "LCSC" "C27692"
-			(at 146.685 30.48 0)
+			(at 146.685 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,13 +2712,12 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 146.685 30.48 0)
+		(property "Name" "LD0"
+			(at 141.605 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2381,7 +2727,7 @@
 			(uuid "cc1d26f4-97a7-4096-b08d-df2f85bc973e")
 		)
 		(instances
-			(project ""
+			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
 					(reference "J10")
 					(unit 1)
@@ -2390,17 +2736,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 146.685 93.345 0)
-		(mirror y)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 95.885 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "420e4e64-4437-43e3-a3c9-b6bac018321a")
-		(property "Reference" "J13"
-			(at 144.145 93.3449 0)
+		(uuid "4c7a17ba-3ec6-4296-81a1-3383c3d81cb1")
+		(property "Reference" "J5"
+			(at 38.1 95.8851 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,8 +2753,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Load_3"
-			(at 144.145 95.8849 0)
+		(property "Value" "Connector 4P"
+			(at 38.1 93.3451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,8 +2762,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
-			(at 146.685 93.345 0)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,8 +2771,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
-			(at 146.685 93.345 0)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,8 +2780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
-			(at 146.685 93.345 0)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,8 +2789,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27692"
-			(at 146.685 93.345 0)
+		(property "LCSC" "C7429634"
+			(at 40.64 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,42 +2798,46 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 146.685 93.345 0)
+		(property "Name" "BTN3"
+			(at 35.56 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "2308cd7a-afb4-4f0b-b3ac-7df1d0f2b612")
+		)
+		(pin "4"
+			(uuid "312b96e4-b73e-41b8-94f0-46852e09db09")
 		)
 		(pin "2"
-			(uuid "28d73636-dcc4-4a2f-955e-52508a84ff30")
+			(uuid "39edff7d-f7d5-4bee-9a74-6948e7f8320a")
 		)
 		(pin "1"
-			(uuid "da7fe0fe-1bfd-4fd4-9d45-3577d4056c87")
+			(uuid "82819469-d758-47ef-8bd1-23fd38eec59f")
 		)
 		(instances
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J13")
+					(reference "J5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 215.265 30.48 0)
-		(mirror y)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4ec4d3cd-2c44-45ef-bb70-e6a73a4712ab")
-		(property "Reference" "J14"
-			(at 212.725 30.4799 0)
+		(uuid "4f6576ed-f751-4819-8a75-ce18192f0d79")
+		(property "Reference" "J4"
+			(at 38.1 74.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,8 +2845,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Load_4"
-			(at 212.725 33.0199 0)
+		(property "Value" "Connector 4P"
+			(at 38.1 72.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,8 +2854,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
-			(at 215.265 30.48 0)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,8 +2863,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
-			(at 215.265 30.48 0)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,8 +2872,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
-			(at 215.265 30.48 0)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,8 +2881,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27692"
-			(at 215.265 30.48 0)
+		(property "LCSC" "C7429634"
+			(at 40.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,201 +2890,30 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 215.265 30.48 0)
+		(property "Name" "BTN2"
+			(at 35.56 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "effaceb5-2d5d-45f3-94ba-ed73742452d6")
+		)
+		(pin "4"
+			(uuid "38319a58-62f5-4bcb-85a5-7df2f02882e4")
 		)
 		(pin "2"
-			(uuid "a9ea3dfa-9acb-4888-884f-781ba66c64cf")
+			(uuid "27e63e3b-2d04-4918-bc4c-98817a67ef31")
 		)
 		(pin "1"
-			(uuid "916e5d75-4f29-400e-a8cd-6e6a7c5e86cf")
+			(uuid "36a25c6b-e7e7-4310-90b3-7d4088775fc9")
 		)
 		(instances
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 146.685 72.39 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5853c5f6-68ab-4710-bb27-ad544d80d6eb")
-		(property "Reference" "J12"
-			(at 144.145 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Load_2"
-			(at 144.145 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
-			(at 146.685 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
-			(at 146.685 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
-			(at 146.685 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C27692"
-			(at 146.685 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 146.685 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "73e91982-8125-4b74-9712-7d39b41e0f38")
-		)
-		(pin "1"
-			(uuid "4175184a-e535-4d7b-a1bf-a4c8cf4e66a3")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 146.685 51.435 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f2334ab-dfde-4e8c-bbbb-82b6525dbd68")
-		(property "Reference" "J11"
-			(at 144.145 51.4349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Load_1"
-			(at 144.145 53.9749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
-			(at 146.685 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
-			(at 146.685 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
-			(at 146.685 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C27692"
-			(at 146.685 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 146.685 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5681f6b-dd9b-4c56-b2ec-2a067a8a6d76")
-		)
-		(pin "1"
-			(uuid "56e2e9bf-87b5-4aa3-a8bd-f5ebfee7d157")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J11")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2874,6 +3052,184 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 53.975 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "790d5517-e88f-4210-bf79-e2c9e8d95ce3")
+		(property "Reference" "J3"
+			(at 38.1 53.9751 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector 4P"
+			(at 38.1 51.4351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7429634"
+			(at 40.64 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "BTN1"
+			(at 35.56 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "43bd2c31-05ef-40d0-bb8a-4ff20776d582")
+		)
+		(pin "4"
+			(uuid "e4c05430-276a-442a-9727-d9212ff647ad")
+		)
+		(pin "2"
+			(uuid "49a411b2-26b1-432c-8dcd-047bb55ca779")
+		)
+		(pin "1"
+			(uuid "cf730fe3-2370-40c5-bb47-3ac6a3de2f29")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 146.685 53.975 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b24d98b-9f52-407b-91d2-304f793abe67")
+		(property "Reference" "J11"
+			(at 144.145 53.9751 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Load"
+			(at 144.145 51.4351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 146.685 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 146.685 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 146.685 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27692"
+			(at 146.685 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "LD1"
+			(at 141.605 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5d0cbd81-d480-4886-b498-1025f684f5c5")
+		)
+		(pin "1"
+			(uuid "f788d1d4-adcf-44ed-8a61-9a2652fc9696")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 46.355 69.85 270)
 		(unit 1)
@@ -2934,100 +3290,6 @@
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 93.345 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8eee210b-317a-405a-89f4-584ea94b4376")
-		(property "Reference" "J5"
-			(at 38.1 93.3449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Button_3"
-			(at 38.1 95.8849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C7429634"
-			(at 40.64 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 40.64 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6e631384-f3d6-402e-b518-7641b27748ec")
-		)
-		(pin "4"
-			(uuid "be1e70c6-76d7-4408-84f9-c32df1d20e23")
-		)
-		(pin "2"
-			(uuid "80ea80e0-910a-4e2d-90dd-15ee37276c21")
-		)
-		(pin "1"
-			(uuid "a789de5e-0264-4846-bc23-66b8a6bee044")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3166,6 +3428,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ce5ce3e-a2ea-4163-8c85-062c1bc45cae")
+		(property "Reference" "J2"
+			(at 38.1 33.0201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector 4P"
+			(at 38.1 30.4801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7429634"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "BTN0"
+			(at 35.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d976cc73-005a-47e5-9d64-fdb8ac4cf37c")
+		)
+		(pin "4"
+			(uuid "ba8dca7c-d706-42f3-8cb8-b5190f0d0b75")
+		)
+		(pin "2"
+			(uuid "decbd24e-5e31-4216-8c64-dac72f889738")
+		)
+		(pin "1"
+			(uuid "37fe92f9-9c49-47b1-b38f-439c7bd1589b")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 46.355 33.02 270)
 		(unit 1)
@@ -3226,94 +3580,6 @@
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 215.265 93.345 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a49c7e01-f4ff-4cdd-9c7c-356b1893efef")
-		(property "Reference" "J17"
-			(at 212.725 93.3449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Load_07"
-			(at 212.725 95.8849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
-			(at 215.265 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
-			(at 215.265 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
-			(at 215.265 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C27692"
-			(at 215.265 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 215.265 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6797b230-26d9-4908-b574-873c2362c31b")
-		)
-		(pin "1"
-			(uuid "19664eba-baa2-4f99-a11a-b754e2c6494a")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -3386,17 +3652,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 156.21 0)
-		(mirror y)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 215.265 53.975 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bdbc1562-68c6-4861-a7fd-f8951ee6de8a")
-		(property "Reference" "J8"
-			(at 38.1 156.2099 0)
+		(uuid "be926225-3a27-4971-baf1-b9d1d96a96c7")
+		(property "Reference" "J15"
+			(at 212.725 53.9751 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,8 +3669,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Button_6"
-			(at 38.1 158.7499 0)
+		(property "Value" "Load"
+			(at 212.725 51.4351 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,8 +3678,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 156.21 0)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 215.265 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,8 +3687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 156.21 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 215.265 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,8 +3696,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 156.21 0)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 215.265 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,8 +3705,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C7429634"
-			(at 40.64 156.21 0)
+		(property "LCSC" "C27692"
+			(at 215.265 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,48 +3714,40 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 40.64 156.21 0)
+		(property "Name" "LD5"
+			(at 210.185 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "4027020e-8606-4b87-a0fa-87226caf4aed")
-		)
-		(pin "4"
-			(uuid "0762bc24-b8af-4c36-9708-f605e2cf75e7")
 		)
 		(pin "2"
-			(uuid "8eef13c7-d63b-4ecf-be69-a1ead12474e3")
+			(uuid "d76e40a7-ed24-4279-81bc-6d0c00696368")
 		)
 		(pin "1"
-			(uuid "34a7750a-07b9-4a7d-a103-815a5d7a5a93")
+			(uuid "a7b2daaf-8554-4cee-9c09-727dc3590f14")
 		)
 		(instances
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J8")
+					(reference "J15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 177.165 0)
-		(mirror y)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 215.265 95.885 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bef53d84-7efe-4c7e-afd7-7b1bbdebcd06")
-		(property "Reference" "J9"
-			(at 38.1 177.1649 0)
+		(uuid "c461d669-57cc-4875-8a80-012e97389629")
+		(property "Reference" "J17"
+			(at 212.725 95.8851 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,8 +3755,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Button_7"
-			(at 38.1 179.7049 0)
+		(property "Value" "Load"
+			(at 212.725 93.3451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,8 +3764,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 177.165 0)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 215.265 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,8 +3773,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 177.165 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 215.265 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,8 +3782,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 177.165 0)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 215.265 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,8 +3791,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C7429634"
-			(at 40.64 177.165 0)
+		(property "LCSC" "C27692"
+			(at 215.265 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,48 +3800,40 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 40.64 177.165 0)
+		(property "Name" "LD7"
+			(at 210.185 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "e3efc257-cb75-4bbf-bee3-28df88f0d2ce")
-		)
-		(pin "4"
-			(uuid "f5e01411-87a0-4cf2-a02d-12b878365ad2")
 		)
 		(pin "2"
-			(uuid "61c288b2-4066-47fb-8360-323608f48ee6")
+			(uuid "c977634f-d6e9-4b89-9e3b-d26a896ef9da")
 		)
 		(pin "1"
-			(uuid "4f5e206c-a928-4f61-b5cd-2331283fdbfc")
+			(uuid "5f927554-456b-4321-9551-b307bdd9ef3d")
 		)
 		(instances
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J9")
+					(reference "J17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 72.39 0)
-		(mirror y)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 146.685 95.885 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ca19d4f7-e72b-4da5-9c09-0462e1212722")
-		(property "Reference" "J4"
-			(at 38.1 72.3899 0)
+		(uuid "d030035c-3b4e-4e8a-b9af-4d9ad0290685")
+		(property "Reference" "J13"
+			(at 144.145 95.8851 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,8 +3841,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Button_2"
-			(at 38.1 74.9299 0)
+		(property "Value" "Load"
+			(at 144.145 93.3451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,8 +3850,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 72.39 0)
+		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
+			(at 146.685 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,8 +3859,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 72.39 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
+			(at 146.685 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,8 +3868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 72.39 0)
+		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
+			(at 146.685 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,8 +3877,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C7429634"
-			(at 40.64 72.39 0)
+		(property "LCSC" "C27692"
+			(at 146.685 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,313 +3886,24 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 40.64 72.39 0)
+		(property "Name" "LD3"
+			(at 141.605 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "5b9c1a62-5af0-4074-a7fd-6de22ebc3882")
-		)
-		(pin "4"
-			(uuid "34e43d22-c721-41d6-8690-21d1bc766d0c")
 		)
 		(pin "2"
-			(uuid "6d481dbb-e437-42db-9bd1-d89be96f38af")
+			(uuid "e6488fb0-a8fb-4c30-a75f-9b60216e43c5")
 		)
 		(pin "1"
-			(uuid "2e96db2c-3354-4cbf-a518-4e4d171f9701")
+			(uuid "1bcb1b39-6496-452c-83d8-0e33c8e29dc0")
 		)
 		(instances
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 135.255 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d02162ed-5084-4923-9092-3ff39f21b6d2")
-		(property "Reference" "J7"
-			(at 38.1 135.2549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Button_5"
-			(at 38.1 137.7949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C7429634"
-			(at 40.64 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 40.64 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c7c38b95-0b28-43a7-8600-0ef6a3e636b9")
-		)
-		(pin "4"
-			(uuid "e86f50d3-bba5-4aa8-a1a3-72153968129b")
-		)
-		(pin "2"
-			(uuid "4aea5f99-1505-413b-93d5-949a85c308c1")
-		)
-		(pin "1"
-			(uuid "3ffc1cac-e530-4e40-995b-c85cd4b62139")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2490fff-e1b8-417a-a977-f52159a08f4a")
-		(property "Reference" "J2"
-			(at 38.1 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Button_0"
-			(at 38.1 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C7429634"
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 40.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0a9dc34e-3932-4e06-a67d-e55c81cd7403")
-		)
-		(pin "4"
-			(uuid "7e129f27-c908-43bd-887a-c38d58f144e5")
-		)
-		(pin "2"
-			(uuid "060e27ad-4287-4102-86ce-8feff6c32658")
-		)
-		(pin "1"
-			(uuid "2959bd4f-6f57-4ab8-9247-38f9c4d4cb93")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 51.435 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd4cdf83-fbac-4a49-905d-4f04624449a4")
-		(property "Reference" "J3"
-			(at 38.1 51.4349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Button_1"
-			(at 38.1 53.9749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C7429634"
-			(at 40.64 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 40.64 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "97b4370f-f2f0-45d8-85f2-20e665a35839")
-		)
-		(pin "4"
-			(uuid "18573a96-9db5-403d-9a39-48820b8ab7ca")
-		)
-		(pin "2"
-			(uuid "2cdd3fa0-ad88-4f07-a38e-d060e656a7bc")
-		)
-		(pin "1"
-			(uuid "cec56ad6-ee6e-4e97-90d0-6c3689ef6ddb")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J3")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4010,6 +3970,190 @@
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 179.705 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1c6e5bc-cbba-4c45-98f4-5828c0f03255")
+		(property "Reference" "J9"
+			(at 38.1 179.7051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector 4P"
+			(at 38.1 177.1651 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7429634"
+			(at 40.64 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "BTN7"
+			(at 35.56 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2c3d8850-8b9b-4b50-8d2d-4588f4037894")
+		)
+		(pin "4"
+			(uuid "809066a7-1ffb-44d3-a054-7f070ac60462")
+		)
+		(pin "2"
+			(uuid "a4560296-65e0-4032-83eb-4bede4d98208")
+		)
+		(pin "1"
+			(uuid "a92a2dea-12ae-4b8a-b6ca-ad60613f2556")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 40.64 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8127767-0591-4a4a-8388-5f04f6ba6e22")
+		(property "Reference" "J8"
+			(at 38.1 158.7501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connector 4P"
+			(at 38.1 156.2101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 40.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
+			(at 40.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7429634"
+			(at 40.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "BTN6"
+			(at 35.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2717d3f8-55ca-4310-8264-087d33f3aad3")
+		)
+		(pin "4"
+			(uuid "e911d73e-c512-44eb-8d94-05be3ea46747")
+		)
+		(pin "2"
+			(uuid "6316ae8e-f5ae-4b2e-a134-0404ea9f9aa3")
+		)
+		(pin "1"
+			(uuid "6ddff4b9-2c9d-42d5-8929-85ddda3fef67")
+		)
+		(instances
+			(project "PCB_CAT_Vending_Machine_V1.0"
+				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4214,94 +4358,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 215.265 51.435 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f87aa904-89e1-4f7f-b277-84591c02de68")
-		(property "Reference" "J15"
-			(at 212.725 51.4349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Load_5"
-			(at 212.725 53.9749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
-			(at 215.265 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
-			(at 215.265 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
-			(at 215.265 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C27692"
-			(at 215.265 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 215.265 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d8986f77-bc16-4152-8890-c167c87a4e2e")
-		)
-		(pin "1"
-			(uuid "edda2486-1af9-4c61-95f6-dd2a24b21473")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 46.355 95.885 270)
 		(unit 1)
@@ -4362,94 +4418,6 @@
 			(project "PCB_CAT_Vending_Machine_V1.0"
 				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 215.265 72.39 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb4bcbed-4fa8-4f77-8c67-d708749ceb94")
-		(property "Reference" "J16"
-			(at 212.725 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Load_6"
-			(at 212.725 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_CH5.08-2A"
-			(at 215.265 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588887111026290688"
-			(at 215.265 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 12.4mm 1x2P 2 250V 2P 5.08mm 6A 9.7mm CH Through Hole Transparent UL94V-0 Plugin,P=5.08mm Wire To Board Connector ROHS"
-			(at 215.265 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C27692"
-			(at 215.265 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 215.265 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5e53c44-54ed-49c2-88e6-10386957ade8")
-		)
-		(pin "1"
-			(uuid "8c447a99-9fca-484e-a98a-6c8e9903aead")
-		)
-		(instances
-			(project "PCB_CAT_Vending_Machine_V1.0"
-				(path "/f8bd6c94-f0e6-407f-98cc-e119e52a2f35/3b9c4b97-ebfa-4ac9-840a-ee2cf9f7cd88"
-					(reference "J16")
 					(unit 1)
 				)
 			)
