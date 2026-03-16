@@ -1945,7 +1945,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 137.795 180)
+		(at 40.64 135.255 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1953,7 +1954,7 @@
 		(dnp no)
 		(uuid "01aee189-15e9-4947-80e8-b471dd95da0a")
 		(property "Reference" "J7"
-			(at 38.1 137.7951 0)
+			(at 38.1 135.2549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +1963,7 @@
 			)
 		)
 		(property "Value" "Connector 4P"
-			(at 38.1 135.2551 0)
+			(at 38.1 137.7949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1972,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 137.795 0)
+			(at 40.64 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1981,7 @@
 			)
 		)
 		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 137.795 0)
+			(at 40.64 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1990,7 @@
 			)
 		)
 		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 137.795 0)
+			(at 40.64 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +1999,7 @@
 			)
 		)
 		(property "LCSC" "C7429634"
-			(at 40.64 137.795 0)
+			(at 40.64 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2008,7 @@
 			)
 		)
 		(property "Name" "BTN5"
-			(at 35.56 132.715 0)
+			(at 35.56 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2190,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 116.84 180)
+		(at 40.64 114.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2197,7 +2199,7 @@
 		(dnp no)
 		(uuid "132e9e23-c137-4385-a6d8-15bdb9b5835a")
 		(property "Reference" "J6"
-			(at 38.1 116.8401 0)
+			(at 38.1 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2208,7 @@
 			)
 		)
 		(property "Value" "Connector 4P"
-			(at 38.1 114.3001 0)
+			(at 38.1 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2217,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 116.84 0)
+			(at 40.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2226,7 @@
 			)
 		)
 		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 116.84 0)
+			(at 40.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2235,7 @@
 			)
 		)
 		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 116.84 0)
+			(at 40.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2244,7 @@
 			)
 		)
 		(property "LCSC" "C7429634"
-			(at 40.64 116.84 0)
+			(at 40.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2253,7 @@
 			)
 		)
 		(property "Name" "BTN4"
-			(at 35.56 111.76 0)
+			(at 35.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,7 +2739,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 95.885 180)
+		(at 40.64 93.345 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2745,7 +2748,7 @@
 		(dnp no)
 		(uuid "4c7a17ba-3ec6-4296-81a1-3383c3d81cb1")
 		(property "Reference" "J5"
-			(at 38.1 95.8851 0)
+			(at 38.1 93.3449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2757,7 @@
 			)
 		)
 		(property "Value" "Connector 4P"
-			(at 38.1 93.3451 0)
+			(at 38.1 95.8849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2766,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 95.885 0)
+			(at 40.64 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2775,7 @@
 			)
 		)
 		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 95.885 0)
+			(at 40.64 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2784,7 @@
 			)
 		)
 		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 95.885 0)
+			(at 40.64 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2793,7 @@
 			)
 		)
 		(property "LCSC" "C7429634"
-			(at 40.64 95.885 0)
+			(at 40.64 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2802,7 @@
 			)
 		)
 		(property "Name" "BTN3"
-			(at 35.56 90.805 0)
+			(at 35.56 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2832,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 74.93 180)
+		(at 40.64 72.39 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2837,7 +2841,7 @@
 		(dnp no)
 		(uuid "4f6576ed-f751-4819-8a75-ce18192f0d79")
 		(property "Reference" "J4"
-			(at 38.1 74.9301 0)
+			(at 38.1 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2850,7 @@
 			)
 		)
 		(property "Value" "Connector 4P"
-			(at 38.1 72.3901 0)
+			(at 38.1 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +2859,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 74.93 0)
+			(at 40.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2868,7 @@
 			)
 		)
 		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 74.93 0)
+			(at 40.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2877,7 @@
 			)
 		)
 		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 74.93 0)
+			(at 40.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +2886,7 @@
 			)
 		)
 		(property "LCSC" "C7429634"
-			(at 40.64 74.93 0)
+			(at 40.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2895,7 @@
 			)
 		)
 		(property "Name" "BTN2"
-			(at 35.56 69.85 0)
+			(at 35.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3057,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 53.975 180)
+		(at 40.64 51.435 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3061,7 +3066,7 @@
 		(dnp no)
 		(uuid "790d5517-e88f-4210-bf79-e2c9e8d95ce3")
 		(property "Reference" "J3"
-			(at 38.1 53.9751 0)
+			(at 38.1 51.4349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3075,7 @@
 			)
 		)
 		(property "Value" "Connector 4P"
-			(at 38.1 51.4351 0)
+			(at 38.1 53.9749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3084,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 53.975 0)
+			(at 40.64 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3093,7 @@
 			)
 		)
 		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 53.975 0)
+			(at 40.64 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3102,7 @@
 			)
 		)
 		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 53.975 0)
+			(at 40.64 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3111,7 @@
 			)
 		)
 		(property "LCSC" "C7429634"
-			(at 40.64 53.975 0)
+			(at 40.64 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,7 +3120,7 @@
 			)
 		)
 		(property "Name" "BTN1"
-			(at 35.56 48.895 0)
+			(at 35.56 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3434,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 33.02 180)
+		(at 40.64 30.48 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3437,7 +3443,7 @@
 		(dnp no)
 		(uuid "9ce5ce3e-a2ea-4163-8c85-062c1bc45cae")
 		(property "Reference" "J2"
-			(at 38.1 33.0201 0)
+			(at 38.1 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3452,7 @@
 			)
 		)
 		(property "Value" "Connector 4P"
-			(at 38.1 30.4801 0)
+			(at 38.1 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3461,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 33.02 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3470,7 @@
 			)
 		)
 		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 33.02 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,7 +3479,7 @@
 			)
 		)
 		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 33.02 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3488,7 @@
 			)
 		)
 		(property "LCSC" "C7429634"
-			(at 40.64 33.02 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3497,7 @@
 			)
 		)
 		(property "Name" "BTN0"
-			(at 35.56 27.94 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3983,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 179.705 180)
+		(at 40.64 177.165 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3985,7 +3992,7 @@
 		(dnp no)
 		(uuid "e1c6e5bc-cbba-4c45-98f4-5828c0f03255")
 		(property "Reference" "J9"
-			(at 38.1 179.7051 0)
+			(at 38.1 177.1649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +4001,7 @@
 			)
 		)
 		(property "Value" "Connector 4P"
-			(at 38.1 177.1651 0)
+			(at 38.1 179.7049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4010,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 179.705 0)
+			(at 40.64 177.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +4019,7 @@
 			)
 		)
 		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 179.705 0)
+			(at 40.64 177.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +4028,7 @@
 			)
 		)
 		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 179.705 0)
+			(at 40.64 177.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +4037,7 @@
 			)
 		)
 		(property "LCSC" "C7429634"
-			(at 40.64 179.705 0)
+			(at 40.64 177.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4046,7 @@
 			)
 		)
 		(property "Name" "BTN7"
-			(at 35.56 174.625 0)
+			(at 35.56 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4076,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40.64 158.75 180)
+		(at 40.64 156.21 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4077,7 +4085,7 @@
 		(dnp no)
 		(uuid "e8127767-0591-4a4a-8388-5f04f6ba6e22")
 		(property "Reference" "J8"
-			(at 38.1 158.7501 0)
+			(at 38.1 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4094,7 @@
 			)
 		)
 		(property "Value" "Connector 4P"
-			(at 38.1 156.2101 0)
+			(at 38.1 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4103,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 40.64 158.75 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4112,7 @@
 			)
 		)
 		(property "Datasheet" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 158.75 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4121,7 @@
 			)
 		)
 		(property "Description" "-25℃~+85℃ 1 12.5mm 1x4P 2.5mm 250V 3A 4 4P 5.9mm 7mm Brass PA66 Through Hole Tin UL94V-0 White XH Plugin,P=2.5mm Wire To Board Connector ROHS"
-			(at 40.64 158.75 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4130,7 @@
 			)
 		)
 		(property "LCSC" "C7429634"
-			(at 40.64 158.75 0)
+			(at 40.64 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4139,7 @@
 			)
 		)
 		(property "Name" "BTN6"
-			(at 35.56 153.67 0)
+			(at 35.56 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)

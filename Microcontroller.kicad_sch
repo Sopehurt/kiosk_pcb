@@ -650,8 +650,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q10"
+				(at 5.715 2.0194 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -659,8 +659,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BPW42"
-				(at 5.08 -1.27 0)
+			(property "Value" "PT15-21C/TR8"
+				(at 5.715 -0.5206 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -668,7 +668,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
+			(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 				(at 12.192 -3.556 0)
 				(effects
 					(font
@@ -677,7 +677,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ges.cz/sheets/b/bpw42.pdf"
+			(property "Datasheet" "https://www.everlight.com.cn/wp-content/plugins/ItemRelationship/product_files/pdf/PT15-21C-TR8.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -686,7 +686,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NPN phototransistor"
+			(property "Description" "-40℃~+85℃ 0.4V@2mA 100nA 20mA 30V 75mW 940nm 1206 Phototransistors ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C41383389"
 				(at 0 0 0)
 				(effects
 					(font
@@ -833,7 +842,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -851,7 +860,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)

@@ -2149,7 +2149,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 93.345 71.12 180)
+		(at 93.345 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2157,7 +2158,7 @@
 		(dnp no)
 		(uuid "052fa342-ec34-4cf6-a005-2c4afdb6e2b9")
 		(property "Reference" "J1"
-			(at 90.17 71.1201 0)
+			(at 90.17 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2167,7 @@
 			)
 		)
 		(property "Value" "12Vin"
-			(at 90.17 68.5801 0)
+			(at 90.17 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2176,7 @@
 			)
 		)
 		(property "Footprint" "Sharing_Connector_Footprint:CONN-TH_2P-P5.00_XY2500V-D-5.00-2P"
-			(at 93.345 71.12 0)
+			(at 93.345 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +2185,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588888835996454912"
-			(at 93.345 71.12 0)
+			(at 93.345 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2194,7 @@
 			)
 		)
 		(property "Description" "1 15A 1x2P 2 2P 300V 5mm Board Side/Socket - Closed Green Hinged (Snap On) Through Hole Plugin,P=5mm Pluggable System Terminal Block ROHS"
-			(at 93.345 71.12 0)
+			(at 93.345 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2203,7 @@
 			)
 		)
 		(property "LCSC" "C505779"
-			(at 93.345 71.12 0)
+			(at 93.345 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2212,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 93.345 71.12 0)
+			(at 93.345 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
