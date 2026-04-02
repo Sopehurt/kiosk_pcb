@@ -2463,12 +2463,6 @@
 		(uuid "30f6f9af-2262-4eab-9a30-9f7aae6f123a")
 	)
 	(junction
-		(at 269.24 125.095)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32ccc549-1697-49a0-a2a7-7d262722f1e1")
-	)
-	(junction
 		(at 210.185 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2523,12 +2517,6 @@
 		(uuid "7b7431a8-1b09-4356-805e-ab9eb97aa1ca")
 	)
 	(junction
-		(at 269.24 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89f83deb-fef1-48c8-8618-645f2017d64b")
-	)
-	(junction
 		(at 255.27 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2553,12 +2541,6 @@
 		(uuid "c5fa1c68-944b-45a9-bf21-b411e82c4af6")
 	)
 	(junction
-		(at 256.54 125.095)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3bfb313-92a1-4eb5-8bf6-0296b79ab72c")
-	)
-	(junction
 		(at 80.01 74.295)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2575,12 +2557,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e84747ad-c694-4d32-bb0f-aed6bba8974e")
-	)
-	(junction
-		(at 256.54 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e945bc36-02d5-4407-aebf-d8727500148e")
 	)
 	(junction
 		(at 255.27 106.68)
@@ -2647,8 +2623,20 @@
 		(uuid "4dc57745-092f-482f-83e7-1d32240b7d05")
 	)
 	(no_connect
+		(at 267.97 146.05)
+		(uuid "4f2dd2cd-2aed-405d-9126-3620f07bae35")
+	)
+	(no_connect
 		(at 95.25 173.99)
 		(uuid "551f0bc7-ed61-49a3-9a23-0662de309b04")
+	)
+	(no_connect
+		(at 267.97 122.555)
+		(uuid "5708c30b-4448-4de0-8397-acb632f8fa28")
+	)
+	(no_connect
+		(at 257.81 146.05)
+		(uuid "5b4b146e-b145-40f2-b4bc-202a7ac018d4")
 	)
 	(no_connect
 		(at 95.25 166.37)
@@ -2701,6 +2689,10 @@
 	(no_connect
 		(at 95.25 161.29)
 		(uuid "bb5aafde-e1ba-4f4d-8e17-9e83f5285cb1")
+	)
+	(no_connect
+		(at 257.81 122.555)
+		(uuid "cd08e856-5526-4db4-90d9-ca3bd9e3459c")
 	)
 	(bus_entry
 		(at 200.66 64.77)
@@ -3373,16 +3365,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 126.365) (xy 269.24 125.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0988405d-7177-43b7-abd5-76575a9f0fdb")
-	)
-	(wire
-		(pts
 			(xy 151.765 105.41) (xy 151.765 107.95)
 		)
 		(stroke
@@ -3483,7 +3465,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.635 148.59) (xy 256.54 148.59)
+			(xy 254.635 148.59) (xy 257.81 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3790,16 +3772,6 @@
 			(type default)
 		)
 		(uuid "2778e06c-0ebf-4adc-beca-6965370dab6a")
-	)
-	(wire
-		(pts
-			(xy 256.54 125.095) (xy 257.81 126.365)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27b9b710-8978-4906-8f3a-607ff31b72a3")
 	)
 	(bus
 		(pts
@@ -4613,7 +4585,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 125.095) (xy 271.145 125.095)
+			(xy 267.97 125.095) (xy 271.145 125.095)
 		)
 		(stroke
 			(width 0)
@@ -4861,16 +4833,6 @@
 		)
 		(uuid "80596382-6ae1-4a1c-91dc-a5d8459de0d9")
 	)
-	(wire
-		(pts
-			(xy 269.24 148.59) (xy 267.97 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80b7348e-af45-4913-a1ff-6d1e9f5b2ae2")
-	)
 	(bus
 		(pts
 			(xy 200.66 76.2) (xy 200.66 80.01)
@@ -4953,7 +4915,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.635 125.095) (xy 256.54 125.095)
+			(xy 254.635 125.095) (xy 257.81 125.095)
 		)
 		(stroke
 			(width 0)
@@ -4980,16 +4942,6 @@
 			(type default)
 		)
 		(uuid "89811a6b-c458-422d-8dc9-3ce749663346")
-	)
-	(wire
-		(pts
-			(xy 256.54 148.59) (xy 257.81 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a098dfe-050e-47cf-b7ea-3a08eb6fdedb")
 	)
 	(wire
 		(pts
@@ -5060,16 +5012,6 @@
 			(type default)
 		)
 		(uuid "902b7e52-0134-45e9-99c8-81e13e1f02cc")
-	)
-	(wire
-		(pts
-			(xy 256.54 125.095) (xy 257.81 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "914b2896-530d-492d-b609-c8b6bd255a20")
 	)
 	(wire
 		(pts
@@ -5403,7 +5345,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 148.59) (xy 271.145 148.59)
+			(xy 267.97 148.59) (xy 271.145 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5493,16 +5435,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 149.86) (xy 269.24 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5844050-8599-42ad-a5fd-ec4b1423e7a2")
-	)
-	(wire
-		(pts
 			(xy 249.555 71.12) (xy 250.825 71.12)
 		)
 		(stroke
@@ -5520,16 +5452,6 @@
 			(type default)
 		)
 		(uuid "b6b891ae-e675-415f-94e9-989d1d7375c3")
-	)
-	(wire
-		(pts
-			(xy 256.54 148.59) (xy 257.81 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b80fb130-3feb-4d78-b7cc-b65575c68c35")
 	)
 	(wire
 		(pts
@@ -5740,16 +5662,6 @@
 			(type default)
 		)
 		(uuid "c3dc1ed5-3708-4c3e-8161-1accf73b2cc4")
-	)
-	(wire
-		(pts
-			(xy 271.145 121.285) (xy 271.145 125.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4aa7924-a17b-4c1d-9b83-828271ecf01a")
 	)
 	(wire
 		(pts
@@ -6013,13 +5925,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 125.095) (xy 267.97 123.825)
+			(xy 271.145 125.095) (xy 271.145 121.285)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db566f6c-d009-4112-8c05-63ce4bd24a3f")
+		(uuid "d94ef89b-54e4-4286-aa2c-a5b935ed3840")
 	)
 	(wire
 		(pts
@@ -29854,7 +29766,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5E")
-		(at 262.89 149.86 0)
+		(at 262.89 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29862,7 +29774,7 @@
 		(dnp no)
 		(uuid "4be84ea6-1965-40ee-8f72-0d431f75583c")
 		(property "Reference" "SW2"
-			(at 262.89 140.97 0)
+			(at 262.89 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29870,7 +29782,7 @@
 			)
 		)
 		(property "Value" "Button"
-			(at 262.89 142.875 0)
+			(at 262.89 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29878,7 +29790,7 @@
 			)
 		)
 		(property "Footprint" "Sharing_IC_Footprint:430182043816"
-			(at 262.89 142.24 0)
+			(at 262.89 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29887,7 +29799,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 262.89 142.24 0)
+			(at 262.89 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29896,7 +29808,7 @@
 			)
 		)
 		(property "Description" "-25℃~+70℃ 100,000 cycles 12V 2.5N 50mA 6mm 6mm 8mm Black No Round Button SMD(SMT) Tab SPST Surface Mount,Vertical Without Bracket SMD-4P,6x6mm Tactile Switches ROHS"
-			(at 262.89 149.86 0)
+			(at 262.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29905,7 +29817,7 @@
 			)
 		)
 		(property "LCSC" " C5340127"
-			(at 262.89 149.86 0)
+			(at 262.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29914,7 +29826,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 262.89 149.86 0)
+			(at 262.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29923,7 +29835,7 @@
 			)
 		)
 		(property "Name" "Add 10 BTH"
-			(at 262.89 149.86 0)
+			(at 262.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34998,7 +34910,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_MEC_5E")
-		(at 262.89 126.365 0)
+		(at 262.89 125.095 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35006,7 +34918,7 @@
 		(dnp no)
 		(uuid "dce3af9a-06a4-4db2-8656-b53d72e40603")
 		(property "Reference" "SW1"
-			(at 262.89 117.475 0)
+			(at 262.89 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35014,7 +34926,7 @@
 			)
 		)
 		(property "Value" "Button"
-			(at 262.89 119.38 0)
+			(at 262.89 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35022,7 +34934,7 @@
 			)
 		)
 		(property "Footprint" "Sharing_IC_Footprint:430182043816"
-			(at 262.89 118.745 0)
+			(at 262.89 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35031,7 +34943,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 262.89 118.745 0)
+			(at 262.89 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35040,7 +34952,7 @@
 			)
 		)
 		(property "Description" "-25℃~+70℃ 100,000 cycles 12V 2.5N 50mA 6mm 6mm 8mm Black No Round Button SMD(SMT) Tab SPST Surface Mount,Vertical Without Bracket SMD-4P,6x6mm Tactile Switches ROHS"
-			(at 262.89 126.365 0)
+			(at 262.89 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35049,7 +34961,7 @@
 			)
 		)
 		(property "LCSC" " C5340127"
-			(at 262.89 126.365 0)
+			(at 262.89 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35058,7 +34970,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 262.89 126.365 0)
+			(at 262.89 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35067,7 +34979,7 @@
 			)
 		)
 		(property "Name" "Pairing"
-			(at 262.89 126.365 0)
+			(at 262.89 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)

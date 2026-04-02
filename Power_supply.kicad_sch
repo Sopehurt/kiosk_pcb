@@ -1538,7 +1538,7 @@
 	)
 	(text "0603"
 		(exclude_from_sim no)
-		(at 163.83 85.725 0)
+		(at 155.575 84.455 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -1560,19 +1560,13 @@
 	)
 	(text "0603"
 		(exclude_from_sim no)
-		(at 159.385 80.645 0)
+		(at 161.29 80.645 0)
 		(effects
 			(font
 				(size 0.8 0.8)
 			)
 		)
 		(uuid "b8a84ed0-b53a-4a85-a97e-b8b8ffc25f76")
-	)
-	(junction
-		(at 165.1 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0393b197-98dd-4e8e-89d7-77882be3b3b1")
 	)
 	(junction
 		(at 121.285 68.58)
@@ -1585,6 +1579,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f0d81f4-9755-4d0d-b5ba-68b311c551f6")
+	)
+	(junction
+		(at 156.845 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cc77fa6-6108-4447-a7df-ee265ed480d6")
 	)
 	(junction
 		(at 106.045 68.58)
@@ -1616,6 +1616,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.845 78.74) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01eef0ed-fab4-4b9b-9ea5-a88117a1d576")
+	)
+	(wire
+		(pts
 			(xy 142.24 85.725) (xy 140.97 86.995)
 		)
 		(stroke
@@ -1633,16 +1643,6 @@
 			(type default)
 		)
 		(uuid "15daa534-3571-42fb-9928-54ff654e628b")
-	)
-	(wire
-		(pts
-			(xy 165.1 78.74) (xy 170.18 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "171f764d-60d9-481b-a605-91cfe93c67f7")
 	)
 	(wire
 		(pts
@@ -1746,6 +1746,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 78.74) (xy 156.845 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7846e1d9-e7a2-4702-afea-6757c81906b9")
+	)
+	(wire
+		(pts
 			(xy 106.045 68.58) (xy 121.285 68.58)
 		)
 		(stroke
@@ -1786,7 +1796,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.995) (xy 165.1 88.265)
+			(xy 156.845 85.725) (xy 156.845 86.995)
 		)
 		(stroke
 			(width 0)
@@ -1826,16 +1836,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 78.74) (xy 156.845 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6a1db88-5912-44b2-92ba-37b27f24e93c")
-	)
-	(wire
-		(pts
 			(xy 206.375 81.915) (xy 206.375 83.82)
 		)
 		(stroke
@@ -1866,7 +1866,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 165.1 81.915)
+			(xy 156.845 78.74) (xy 156.845 80.645)
 		)
 		(stroke
 			(width 0)
@@ -1913,6 +1913,16 @@
 			(type default)
 		)
 		(uuid "dfded884-53a4-4c34-a342-80b1c969d33f")
+	)
+	(wire
+		(pts
+			(xy 172.085 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c14210-3aac-4704-8b87-e050b643bd80")
 	)
 	(wire
 		(pts
@@ -1964,26 +1974,6 @@
 		)
 		(uuid "fcc89851-844a-4320-8c54-1dcf1a89f946")
 	)
-	(wire
-		(pts
-			(xy 161.925 78.74) (xy 165.1 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd27f424-883e-4523-96b6-f63ac6f1ca10")
-	)
-	(label "Vout_5V"
-		(at 170.18 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26cb88fc-3c75-46e7-83ce-76ff694a5b9a")
-	)
 	(label "Vout_5V"
 		(at 194.31 73.66 0)
 		(effects
@@ -1994,9 +1984,19 @@
 		)
 		(uuid "9b994edd-f956-4023-9128-04902967c39c")
 	)
+	(label "Vout_5V"
+		(at 172.085 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dfdec418-3afe-43e0-a4b6-6ae90e0ff859")
+	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 165.1 84.455 180)
+		(at 156.845 83.185 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2004,7 +2004,7 @@
 		(dnp no)
 		(uuid "026437ee-19a7-4de6-8610-1722c68bcdda")
 		(property "Reference" "R5"
-			(at 163.83 83.82 0)
+			(at 155.575 82.55 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2013,7 +2013,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 165.1 84.455 90)
+			(at 156.845 83.185 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2021,7 +2021,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 165.1 84.455 0)
+			(at 156.845 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2030,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
-			(at 165.1 84.455 0)
+			(at 156.845 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2039,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 165.1 84.455 0)
+			(at 156.845 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2048,7 @@
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 165.1 84.455 0)
+			(at 156.845 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2057,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 165.1 84.455 0)
+			(at 156.845 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3327,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 88.265 0)
+		(at 156.845 86.995 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3336,7 +3336,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a9d7946-f037-4e57-9e4b-d5400a888c04")
 		(property "Reference" "#PWR025"
-			(at 165.1 94.615 0)
+			(at 156.845 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3345,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 92.71 0)
+			(at 156.845 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 88.265 0)
+			(at 156.845 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 88.265 0)
+			(at 156.845 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3371,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 88.265 0)
+			(at 156.845 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3524,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 159.385 78.74 90)
+		(at 161.29 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3532,7 +3532,7 @@
 		(dnp no)
 		(uuid "bf18e28b-e5d2-4766-81ce-15232b6b0d53")
 		(property "Reference" "R4"
-			(at 159.385 76.835 90)
+			(at 161.29 76.835 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3540,7 +3540,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 159.385 78.74 90)
+			(at 161.29 78.74 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3548,7 +3548,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 159.385 78.74 0)
+			(at 161.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3557,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
-			(at 159.385 78.74 0)
+			(at 161.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3566,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100mW 15kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 159.385 78.74 0)
+			(at 161.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +3575,7 @@
 			)
 		)
 		(property "LCSC" "C22809"
-			(at 159.385 78.74 90)
+			(at 161.29 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3584,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 159.385 78.74 90)
+			(at 161.29 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
